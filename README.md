@@ -1,2 +1,2 @@
 # first_course.Net
-The training repository for mastering the technology .NET
+[![codecov](https://codecov.io/gh/TimSon777/first_course.Net/branch/2k-181/graph/badge.svg?token=HPK2TNIJ2X)](https://codecov.io/gh/TimSon777/first_course.Net)
