@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+        <WarnOn>3390;$(WarnOn)</WarnOn>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include=".dockerignore" />
+      <Content Include="Dockerfile" />
+      <Compile Include="CalculatorOperation.fs" />
+      <Compile Include="ErrorCode.fs" />
+      <Compile Include="Calculator.fs" />
+      <Compile Include="ErrorMessages.fs" />
+      <Compile Include="Parser.fs" />
+      <Compile Include="Program.fs" />
+    </ItemGroup>
+
+</Project>
