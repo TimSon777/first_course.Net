@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hw2_il", "hw2_il\hw2_il.ilp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests2", "hw2\Tests2\Tests2.csproj", "{700F779D-A3B8-4468-B53F-B96CB127CD81}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "hw3", "hw3\hw3.fsproj", "{94C810D0-2565-4F9C-84FA-CF08369A6B1B}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tests3", "hw3\Tests3\Tests3.fsproj", "{E3C99226-F233-4E5C-BC43-619F5B1DA21D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{700F779D-A3B8-4468-B53F-B96CB127CD81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{700F779D-A3B8-4468-B53F-B96CB127CD81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{700F779D-A3B8-4468-B53F-B96CB127CD81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94C810D0-2565-4F9C-84FA-CF08369A6B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94C810D0-2565-4F9C-84FA-CF08369A6B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94C810D0-2565-4F9C-84FA-CF08369A6B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94C810D0-2565-4F9C-84FA-CF08369A6B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3C99226-F233-4E5C-BC43-619F5B1DA21D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3C99226-F233-4E5C-BC43-619F5B1DA21D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3C99226-F233-4E5C-BC43-619F5B1DA21D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3C99226-F233-4E5C-BC43-619F5B1DA21D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
