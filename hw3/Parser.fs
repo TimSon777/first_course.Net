@@ -7,10 +7,10 @@ let checkArgLength (array: string[]) =
 
 let tryParseOperation (arg: string) (operation: outref<CalculatorOperation>) =
     operation <- match arg with
-    | "+" -> CalculatorOperation.Plus
-    | "-" -> CalculatorOperation.Minus
-    | "/" -> CalculatorOperation.Divide
-    | _ -> CalculatorOperation.Multiply
+                 | "+" -> CalculatorOperation.Plus
+                 | "-" -> CalculatorOperation.Minus
+                 | "/" -> CalculatorOperation.Divide
+                 | _ -> CalculatorOperation.Multiply
     operation <> CalculatorOperation.Multiply || arg = "*"
     
 let parseCalcArguments (args: string[]) (val1: outref<int>) (operation: outref<CalculatorOperation>) (val2: outref<int>) =
