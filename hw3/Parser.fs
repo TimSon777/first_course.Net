@@ -14,11 +14,11 @@ let tryParseOperation (arg: string) (operation: outref<CalculatorOperation>) =
     operation <> CalculatorOperation.Multiply || arg = "*"
     
 let parseCalcArguments (args: string[]) (val1: outref<int>) (operation: outref<CalculatorOperation>) (val2: outref<int>) =
-    if Int32.TryParse(args.[0], &val1) = false || Int32.TryParse(args.[2], &val2) = false then  
+    if not (Int32.TryParse(args.[0], &val1)) || not (Int32.TryParse(args.[2], &val2)) then  
         ErrorCode.WrongArgFormatInt
-    elif checkArgLength args = false then
+    elif not (checkArgLength args) then
         ErrorCode.WrongArgLength
-    elif tryParseOperation args.[1] &operation = false then
+    elif not (tryParseOperation args.[1] &operation) then
         ErrorCode.WrongArgFormatOperation
     else
         ErrorCode.Correct
