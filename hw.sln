@@ -14,6 +14,10 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "hw3", "hw3\hw3.fsproj", "{9
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tests3", "hw3\Tests3\Tests3.fsproj", "{E3C99226-F233-4E5C-BC43-619F5B1DA21D}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "hw4", "hw4\hw4.fsproj", "{A8589FAE-594A-4368-8DF2-180DC35FBD15}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tests4", "Tests4\Tests4.fsproj", "{6DD45F8E-0AA6-4E89-B878-AF714D58D5D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +52,13 @@ Global
 		{E3C99226-F233-4E5C-BC43-619F5B1DA21D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3C99226-F233-4E5C-BC43-619F5B1DA21D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3C99226-F233-4E5C-BC43-619F5B1DA21D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8589FAE-594A-4368-8DF2-180DC35FBD15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8589FAE-594A-4368-8DF2-180DC35FBD15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8589FAE-594A-4368-8DF2-180DC35FBD15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8589FAE-594A-4368-8DF2-180DC35FBD15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DD45F8E-0AA6-4E89-B878-AF714D58D5D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD45F8E-0AA6-4E89-B878-AF714D58D5D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD45F8E-0AA6-4E89-B878-AF714D58D5D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD45F8E-0AA6-4E89-B878-AF714D58D5D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
