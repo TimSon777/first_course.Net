@@ -9,15 +9,13 @@ open Giraffe
 
 open ResultBuilder
 open Calculator
-open InOutData
-open Parser
+open Expression
 
 let parametersCalculatorHandler:HttpHandler =
     fun next ctx ->
         let resultCalculation = result {
-            let! expression = ctx.TryBindQueryString<InputExpression>()
-            let! output = parseInputData expression
-            return calculate output
+            let! expression = ctx.TryBindQueryString<Expression>()
+            return calculate expression
         }
         
         match resultCalculation with
@@ -40,16 +38,17 @@ type Startup() =
                         (_ : ILoggerFactory) =
         app.UseGiraffe webApp
         
-    static member CreateHostBuilder (args:string[]) =
-        Host.CreateDefaultBuilder(args)
-            .ConfigureWebHostDefaults(
-                fun webHostBuilder ->
-                    webHostBuilder
-                        .UseStartup<Startup>()
-                        |> ignore)
+        
+let CreateHostBuilder (args:string[]) =
+    Host.CreateDefaultBuilder(args)
+        .ConfigureWebHostDefaults(
+            fun webHostBuilder ->
+                webHostBuilder
+                    .UseStartup<Startup>()
+                    |> ignore)
              
 [<EntryPoint>]
 let main args =
-    Startup.CreateHostBuilder(args).Build().Run()
+    CreateHostBuilder(args).Build().Run()
     0
     

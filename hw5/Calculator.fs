@@ -1,5 +1,5 @@
 ﻿module hw5.Calculator
-open InOutData
+open hw5.Expression
 
 let calculate expression =
     match expression.Operation with

@@ -14,8 +14,7 @@
 
     <ItemGroup>
         <Compile Include="Operation.fs" />
-        <Compile Include="InOutData.fs" />
-        <Compile Include="Parser.fs" />
+        <Compile Include="Expression.fs" />
         <Compile Include="ResultBuilder.fs" />
         <Compile Include="Calculator.fs" />
         <Compile Include="Program.fs" />
