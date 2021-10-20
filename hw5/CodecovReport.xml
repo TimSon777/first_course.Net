@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root CoveredStatements="50" TotalStatements="50" CoveragePercent="100" ReportType="DetailedXml" DotCoverVersion="2021.2.1">
+  <FileIndices>
+    <File Index="1" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw3\Tests3\Program.fs" ChecksumAlgorithm="SHA256" Checksum="3C4FDB2C06EAA43B2192CB700A57512D55B7E95928DC3C8288B01546D5D4E1BC" />
+    <File Index="2" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw3\Tests3\ParserTests.fs" ChecksumAlgorithm="SHA256" Checksum="7A1BE00D40CB4EF74906AD3F300AD65CC029F9A7F89068A0D3EC49F21428B739" />
+    <File Index="3" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw3\Tests3\ErrorMessagesTests.fs" ChecksumAlgorithm="SHA256" Checksum="FBFBF1D4070F745B9B55706ED755D6B369468A5E8C09299A13916A8CD9073126" />
+    <File Index="4" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw3\Tests3\ProgramTests.fs" ChecksumAlgorithm="SHA256" Checksum="30DDD19C95FAD3125FB1A405C4CCD114F9AA6AB62C758CAF96D0332027EA9778" />
+    <File Index="5" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw3\Tests3\CalculatorTests.fs" ChecksumAlgorithm="SHA256" Checksum="B7E5A1BD29D913DAB3674F96B77E03C990BED6FA161798B6738CABAFC79E5179" />
+    <File Index="9" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw5\Expression.fs" ChecksumAlgorithm="SHA256" Checksum="C8BA927C0D30A1F260E3D2FE8B2DBBCD355EC842DFB3A812CFE92CDFD3E0390F" />
+    <File Index="8" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw5\ResultBuilder.fs" ChecksumAlgorithm="SHA256" Checksum="FA46A1D421AE0A17322BC777001F1894D389C708B8E167BB1E44E7A1FEFD4FB4" />
+    <File Index="7" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw5\Calculator.fs" ChecksumAlgorithm="SHA256" Checksum="96DCCB97CBA5C698602B8AC76ABDF9AE31A04F96F5F134CAE0E7139FD53A0EE6" />
+    <File Index="10" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw5\Program.fs" ChecksumAlgorithm="SHA256" Checksum="6D94D7251759AADC16B57EDE912FF31AFB3E31F3C77D029DBE6A5B2854A270A6" />
+    <File Index="13" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\Tests5\obj\Debug\net5.0\Tests5.AssemblyInfo.cs" ChecksumAlgorithm="SHA256" Checksum="AAE8E8DE14D3C9F1CE6E89357A6096C8110AB51EB44E1F9C914385E7BAEE5DA3" />
+    <File Index="12" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\Tests5\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" ChecksumAlgorithm="SHA256" Checksum="3DAB221DDB7A8D7D050731DC8D289DF26D56F7DABEB91B3D7F96E5CB6C994C29" />
+    <File Index="11" Name="C:\Users\Тимур\.nuget\packages\microsoft.net.test.sdk\16.9.4\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" ChecksumAlgorithm="SHA256" Checksum="D66F12F9433816A8C7DC1B2ACB9E1010F5418F5EEB51E80F1DF57AA1DCAB8D8A" />
+    <File Index="14" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\Tests5\IntegrationTests.cs" ChecksumAlgorithm="SHA256" Checksum="DD8830C918898C06D3B501AC759FA3A5A697A246869436095098E6E648FED14C" />
+  </FileIndices>
+  <Assembly Name="hw5.App" CoveredStatements="32" TotalStatements="32" CoveragePercent="100">
+    <Namespace Name="&lt;StartupCode$hw5-App&gt;.$hw5" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+      <Type Name="App" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+        <Method Name=".cctor():System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Statement FileIndex="10" Line="25" Column="1" EndLine="30" EndColumn="49" Covered="True" />
+        </Method>
+      </Type>
+      <Type Name="ResultBuilder" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+        <Method Name=".cctor():System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Statement FileIndex="8" Line="9" Column="1" EndLine="9" EndColumn="29" Covered="True" />
+        </Method>
+      </Type>
+    </Namespace>
+    <Namespace Name="hw5" CoveredStatements="30" TotalStatements="30" CoveragePercent="100">
+      <Type Name="App" CoveredStatements="19" TotalStatements="19" CoveragePercent="100">
+        <Type Name="parametersCalculatorHandler@22" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Method Name="Invoke(Microsoft.FSharp.Core.FSharpFunc&lt;Microsoft.AspNetCore.Http.HttpContext,System.Threading.Tasks.Task&lt;Microsoft.FSharp.Core.FSharpOption&lt;Microsoft.AspNetCore.Http.HttpContext&gt;&gt;&gt;,Microsoft.AspNetCore.Http.HttpContext):System.Threading.Tasks.Task&lt;Microsoft.FSharp.Core.FSharpOption&lt;Microsoft.AspNetCore.Http.HttpContext&gt;&gt;" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+            <Statement FileIndex="10" Line="22" Column="21" EndLine="22" EndColumn="38" Covered="True" />
+          </Method>
+        </Type>
+        <Type Name="parametersCalculatorHandler@22-1" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Method Name="Invoke(Microsoft.FSharp.Core.FSharpFunc&lt;Microsoft.AspNetCore.Http.HttpContext,System.Threading.Tasks.Task&lt;Microsoft.FSharp.Core.FSharpOption&lt;Microsoft.AspNetCore.Http.HttpContext&gt;&gt;&gt;,Microsoft.AspNetCore.Http.HttpContext):System.Threading.Tasks.Task&lt;Microsoft.FSharp.Core.FSharpOption&lt;Microsoft.AspNetCore.Http.HttpContext&gt;&gt;" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+            <Statement FileIndex="10" Line="22" Column="43" EndLine="22" EndColumn="50" Covered="True" />
+          </Method>
+        </Type>
+        <Type Name="parametersCalculatorHandler@23-2" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Method Name="Invoke(Microsoft.FSharp.Core.FSharpFunc&lt;Microsoft.AspNetCore.Http.HttpContext,System.Threading.Tasks.Task&lt;Microsoft.FSharp.Core.FSharpOption&lt;Microsoft.AspNetCore.Http.HttpContext&gt;&gt;&gt;,Microsoft.AspNetCore.Http.HttpContext):System.Threading.Tasks.Task&lt;Microsoft.FSharp.Core.FSharpOption&lt;Microsoft.AspNetCore.Http.HttpContext&gt;&gt;" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+            <Statement FileIndex="10" Line="23" Column="27" EndLine="23" EndColumn="44" Covered="True" />
+          </Method>
+        </Type>
+        <Type Name="parametersCalculatorHandler@23-3" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Method Name="Invoke(Microsoft.FSharp.Core.FSharpFunc&lt;Microsoft.AspNetCore.Http.HttpContext,System.Threading.Tasks.Task&lt;Microsoft.FSharp.Core.FSharpOption&lt;Microsoft.AspNetCore.Http.HttpContext&gt;&gt;&gt;,Microsoft.AspNetCore.Http.HttpContext):System.Threading.Tasks.Task&lt;Microsoft.FSharp.Core.FSharpOption&lt;Microsoft.AspNetCore.Http.HttpContext&gt;&gt;" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+            <Statement FileIndex="10" Line="23" Column="49" EndLine="23" EndColumn="59" Covered="True" />
+          </Method>
+        </Type>
+        <Type Name="resultCalculation@18" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+          <Method Name="Invoke(hw5.Expression.Expression):Microsoft.FSharp.Core.FSharpResult&lt;System.Decimal,System.String&gt;" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+            <Statement FileIndex="10" Line="17" Column="13" EndLine="17" EndColumn="67" Covered="True" />
+            <Statement FileIndex="10" Line="18" Column="13" EndLine="18" EndColumn="40" Covered="True" />
+          </Method>
+        </Type>
+        <Type Name="Startup" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+          <Method Name=".ctor():System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+            <Statement FileIndex="10" Line="32" Column="6" EndLine="32" EndColumn="13" Covered="True" />
+          </Method>
+          <Method Name="Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.Extensions.Hosting.IHostEnvironment,Microsoft.Extensions.Logging.ILoggerFactory):System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+            <Statement FileIndex="10" Line="39" Column="9" EndLine="39" EndColumn="30" Covered="True" />
+          </Method>
+          <Method Name="ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection):System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+            <Statement FileIndex="10" Line="34" Column="9" EndLine="34" EndColumn="40" Covered="True" />
+          </Method>
+        </Type>
+        <Type Name="webApp@26-5" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Method Name="Invoke(Microsoft.FSharp.Core.FSharpFunc&lt;Microsoft.AspNetCore.Http.HttpContext,System.Threading.Tasks.Task&lt;Microsoft.FSharp.Core.FSharpOption&lt;Microsoft.AspNetCore.Http.HttpContext&gt;&gt;&gt;):Microsoft.FSharp.Core.FSharpFunc&lt;Microsoft.AspNetCore.Http.HttpContext,System.Threading.Tasks.Task&lt;Microsoft.FSharp.Core.FSharpOption&lt;Microsoft.AspNetCore.Http.HttpContext&gt;&gt;&gt;" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+            <Statement FileIndex="10" Line="26" Column="5" EndLine="30" EndColumn="49" Covered="True" />
+          </Method>
+        </Type>
+        <Type Name="webApp@27-3" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Method Name="Invoke(Microsoft.FSharp.Core.FSharpFunc&lt;Microsoft.AspNetCore.Http.HttpContext,System.Threading.Tasks.Task&lt;Microsoft.FSharp.Core.FSharpOption&lt;Microsoft.AspNetCore.Http.HttpContext&gt;&gt;&gt;):Microsoft.FSharp.Core.FSharpFunc&lt;Microsoft.AspNetCore.Http.HttpContext,System.Threading.Tasks.Task&lt;Microsoft.FSharp.Core.FSharpOption&lt;Microsoft.AspNetCore.Http.HttpContext&gt;&gt;&gt;" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+            <Statement FileIndex="10" Line="27" Column="17" EndLine="29" EndColumn="73" Covered="True" />
+          </Method>
+        </Type>
+        <Type Name="webApp@28" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Method Name="Invoke(Microsoft.FSharp.Core.FSharpFunc&lt;Microsoft.AspNetCore.Http.HttpContext,System.Threading.Tasks.Task&lt;Microsoft.FSharp.Core.FSharpOption&lt;Microsoft.AspNetCore.Http.HttpContext&gt;&gt;&gt;,Microsoft.AspNetCore.Http.HttpContext):System.Threading.Tasks.Task&lt;Microsoft.FSharp.Core.FSharpOption&lt;Microsoft.AspNetCore.Http.HttpContext&gt;&gt;" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+            <Statement FileIndex="10" Line="28" Column="21" EndLine="28" EndColumn="30" Covered="True" />
+          </Method>
+        </Type>
+        <Type Name="webApp@29-1" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Method Name="Invoke(Microsoft.FSharp.Core.FSharpFunc&lt;Microsoft.AspNetCore.Http.HttpContext,System.Threading.Tasks.Task&lt;Microsoft.FSharp.Core.FSharpOption&lt;Microsoft.AspNetCore.Http.HttpContext&gt;&gt;&gt;,Microsoft.AspNetCore.Http.HttpContext):System.Threading.Tasks.Task&lt;Microsoft.FSharp.Core.FSharpOption&lt;Microsoft.AspNetCore.Http.HttpContext&gt;&gt;" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+            <Statement FileIndex="10" Line="29" Column="21" EndLine="29" EndColumn="39" Covered="True" />
+          </Method>
+        </Type>
+        <Type Name="webApp@29-2" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Method Name="Invoke(Microsoft.FSharp.Core.FSharpFunc&lt;Microsoft.AspNetCore.Http.HttpContext,System.Threading.Tasks.Task&lt;Microsoft.FSharp.Core.FSharpOption&lt;Microsoft.AspNetCore.Http.HttpContext&gt;&gt;&gt;,Microsoft.AspNetCore.Http.HttpContext):System.Threading.Tasks.Task&lt;Microsoft.FSharp.Core.FSharpOption&lt;Microsoft.AspNetCore.Http.HttpContext&gt;&gt;" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+            <Statement FileIndex="10" Line="29" Column="44" EndLine="29" EndColumn="71" Covered="True" />
+          </Method>
+        </Type>
+        <Method Name="parametersCalculatorHandler(Microsoft.FSharp.Core.FSharpFunc&lt;Microsoft.AspNetCore.Http.HttpContext,System.Threading.Tasks.Task&lt;Microsoft.FSharp.Core.FSharpOption&lt;Microsoft.AspNetCore.Http.HttpContext&gt;&gt;&gt;,Microsoft.AspNetCore.Http.HttpContext):System.Threading.Tasks.Task&lt;Microsoft.FSharp.Core.FSharpOption&lt;Microsoft.AspNetCore.Http.HttpContext&gt;&gt;" CoveredStatements="5" TotalStatements="5" CoveragePercent="100">
+          <Statement FileIndex="10" Line="21" Column="9" EndLine="21" EndColumn="37" Covered="True" />
+          <Statement FileIndex="10" Line="21" Column="9" EndLine="21" EndColumn="37" Covered="True" />
+          <Statement FileIndex="10" Line="22" Column="20" EndLine="22" EndColumn="60" Covered="True" />
+          <Statement FileIndex="10" Line="21" Column="9" EndLine="21" EndColumn="37" Covered="True" />
+          <Statement FileIndex="10" Line="23" Column="26" EndLine="23" EndColumn="69" Covered="True" />
+        </Method>
+      </Type>
+      <Type Name="Calculator" CoveredStatements="5" TotalStatements="5" CoveragePercent="100">
+        <Method Name="calculate(hw5.Expression.Expression):System.Decimal" CoveredStatements="5" TotalStatements="5" CoveragePercent="100">
+          <Statement FileIndex="7" Line="5" Column="5" EndLine="5" EndColumn="36" Covered="True" />
+          <Statement FileIndex="7" Line="6" Column="25" EndLine="6" EndColumn="54" Covered="True" />
+          <Statement FileIndex="7" Line="7" Column="26" EndLine="7" EndColumn="55" Covered="True" />
+          <Statement FileIndex="7" Line="8" Column="27" EndLine="8" EndColumn="56" Covered="True" />
+          <Statement FileIndex="7" Line="9" Column="12" EndLine="9" EndColumn="41" Covered="True" />
+        </Method>
+      </Type>
+      <Type Name="ResultBuilder" CoveredStatements="6" TotalStatements="6" CoveragePercent="100">
+        <Type Name="ResultBuilder" CoveredStatements="6" TotalStatements="6" CoveragePercent="100">
+          <Method Name=".ctor():System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+            <Statement FileIndex="8" Line="3" Column="6" EndLine="3" EndColumn="19" Covered="True" />
+          </Method>
+          <Method Name="Bind&lt;c,d,e&gt;(Microsoft.FSharp.Core.FSharpResult&lt;c,d&gt;,Microsoft.FSharp.Core.FSharpFunc&lt;c,Microsoft.FSharp.Core.FSharpResult&lt;e,d&gt;&gt;):Microsoft.FSharp.Core.FSharpResult&lt;e,d&gt;" CoveredStatements="4" TotalStatements="4" CoveragePercent="100">
+            <Statement FileIndex="8" Line="5" Column="9" EndLine="5" EndColumn="21" Covered="True" />
+            <Statement FileIndex="8" Line="6" Column="20" EndLine="6" EndColumn="24" Covered="True" />
+            <Statement FileIndex="8" Line="5" Column="9" EndLine="5" EndColumn="21" Covered="True" />
+            <Statement FileIndex="8" Line="7" Column="27" EndLine="7" EndColumn="38" Covered="True" />
+          </Method>
+          <Method Name="Return&lt;a,b&gt;(a):Microsoft.FSharp.Core.FSharpResult&lt;a,b&gt;" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+            <Statement FileIndex="8" Line="8" Column="25" EndLine="8" EndColumn="29" Covered="True" />
+          </Method>
+        </Type>
+      </Type>
+    </Namespace>
+  </Assembly>
+  <Assembly Name="Tests5" CoveredStatements="18" TotalStatements="18" CoveragePercent="100">
+    <Namespace Name="Tests5" CoveredStatements="18" TotalStatements="18" CoveragePercent="100">
+      <Type Name="HostBuilder" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+        <Type Name="&lt;&gt;c" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Method Name="&lt;CreateHostBuilder&gt;b__0_0(Microsoft.AspNetCore.Hosting.IWebHostBuilder):System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+            <Statement FileIndex="14" Line="18" Column="48" EndLine="20" EndColumn="37" Covered="True" />
+          </Method>
+        </Type>
+        <Method Name="CreateHostBuilder():Microsoft.Extensions.Hosting.IHostBuilder" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Statement FileIndex="14" Line="16" Column="16" EndLine="20" EndColumn="38" Covered="True" />
+        </Method>
+      </Type>
+      <Type Name="IntegrationTests" CoveredStatements="16" TotalStatements="16" CoveragePercent="100">
+        <Type Name="&lt;CommonPartTests&gt;d__5" CoveredStatements="6" TotalStatements="6" CoveragePercent="100">
+          <Method Name="MoveNext():System.Void" CoveredStatements="6" TotalStatements="6" CoveragePercent="100">
+            <Statement FileIndex="14" Line="53" Column="9" EndLine="53" EndColumn="10" Covered="True" />
+            <Statement FileIndex="14" Line="54" Column="13" EndLine="54" EndColumn="67" Covered="True" />
+            <Statement FileIndex="14" Line="56" Column="13" EndLine="56" EndColumn="108" Covered="True" />
+            <Statement FileIndex="14" Line="57" Column="13" EndLine="57" EndColumn="69" Covered="True" />
+            <Statement FileIndex="14" Line="58" Column="13" EndLine="58" EndColumn="45" Covered="True" />
+            <Statement FileIndex="14" Line="59" Column="9" EndLine="59" EndColumn="10" Covered="True" />
+          </Method>
+        </Type>
+        <Type Name="&lt;TestCalculate_Correct&gt;d__3" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+          <Method Name="MoveNext():System.Void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+            <Statement FileIndex="14" Line="40" Column="9" EndLine="40" EndColumn="10" Covered="True" />
+            <Statement FileIndex="14" Line="41" Column="13" EndLine="41" EndColumn="57" Covered="True" />
+            <Statement FileIndex="14" Line="42" Column="9" EndLine="42" EndColumn="10" Covered="True" />
+          </Method>
+        </Type>
+        <Type Name="&lt;TestCalculate_Wrong&gt;d__4" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+          <Method Name="MoveNext():System.Void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+            <Statement FileIndex="14" Line="48" Column="9" EndLine="48" EndColumn="10" Covered="True" />
+            <Statement FileIndex="14" Line="49" Column="13" EndLine="49" EndColumn="57" Covered="True" />
+            <Statement FileIndex="14" Line="50" Column="9" EndLine="50" EndColumn="10" Covered="True" />
+          </Method>
+        </Type>
+        <Method Name=".ctor(Tests5.HostBuilder):System.Void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100">
+          <Statement FileIndex="14" Line="26" Column="9" EndLine="26" EndColumn="53" Covered="True" />
+          <Statement FileIndex="14" Line="27" Column="9" EndLine="27" EndColumn="10" Covered="True" />
+          <Statement FileIndex="14" Line="28" Column="13" EndLine="28" EndColumn="46" Covered="True" />
+          <Statement FileIndex="14" Line="29" Column="9" EndLine="29" EndColumn="10" Covered="True" />
+        </Method>
+      </Type>
+    </Namespace>
+  </Assembly>
+</Root>
