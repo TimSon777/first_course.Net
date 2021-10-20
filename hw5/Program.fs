@@ -7,16 +7,21 @@ open Microsoft.Extensions.Logging
 open Microsoft.Extensions.DependencyInjection
 open Giraffe
 
+open ResultBuilder
 open Calculator
 open InOutData
-open ErrorHandler
+open Parser
 
 let parametersCalculatorHandler:HttpHandler =
     fun next ctx ->
-        let expression = ctx.TryBindQueryString<InputExpression>()
-        let parsedArgs = errorExpressionHandler expression
-        match parsedArgs with
-        | Ok outputExpression -> (setStatusCode 200 >=> json (calculate outputExpression)) next ctx
+        let resultCalculation = result {
+            let! expression = ctx.TryBindQueryString<InputExpression>()
+            let! output = parseInputData expression
+            return calculate output
+        }
+        
+        match resultCalculation with
+        | Ok ok -> (setStatusCode 200 >=> json ok) next ctx
         | Error error -> (setStatusCode 400 >=> json error) next ctx
             
 let webApp =
