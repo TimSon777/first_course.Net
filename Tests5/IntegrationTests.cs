@@ -52,7 +52,6 @@ namespace Tests5
         private async Task CommonPartTests(string v1, string op, string v2, string expected)
         {
             CultureInfo.CurrentCulture = new CultureInfo("en-us");
-
             var response = await _client.GetAsync($"{Localhost}/calculate?v1={v1}&operation={op}&v2={v2}");
             var result = await response.Content.ReadAsStringAsync();
             Assert.Equal(expected,  result);
