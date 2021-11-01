@@ -88,11 +88,11 @@ namespace hw6.Services
         {
             var propertyType = propertyInfo.PropertyType;
 
-            var text = IntegerTypes
+            var isContains = IntegerTypes
                 .WholeTypes
-                .IsContains(propertyType)
-                    ? "" 
-                    : "This field is required.";
+                .IsContains(propertyType);
+            
+            var text = isContains ? "" : "This field is required.";
             
                 var input = new TagBuilder("input")
                 {
@@ -102,8 +102,8 @@ namespace hw6.Services
                         {"data-val", "true"},
                         {"id", propertyInfo.Name},
                         {"name", propertyInfo.Name},
-                        {"type", propertyType == typeof(string) ? "text" : "number"},
-                        {"value", propertyType == typeof(string) ? "" : "0"}
+                        {"type", !isContains ? "text" : "number"},
+                        {"value", !isContains ? "" : "0"}
                     }
                 };
             
