@@ -31,7 +31,7 @@ namespace hw6.Services
             return propertyInfo.GetLabelForTitle() + (
                 propertyInfo.PropertyType.IsEnum
                     ? propertyInfo.GetEnumSelectList()
-                    : propertyInfo.GetLabelForInput(span));
+                    : propertyInfo.GetLabelForInput(span, model));
         }
 
         private static string GetEnumSelectList(this PropertyInfo propertyInfo)
@@ -84,7 +84,7 @@ namespace hw6.Services
             return div.GetHtmlString();
         }
 
-        private static string GetLabelForInput(this PropertyInfo propertyInfo, IHtmlContent? span)
+        private static string GetLabelForInput(this PropertyInfo propertyInfo, IHtmlContent? span, object model)
         {
             var propertyType = propertyInfo.PropertyType;
 
@@ -92,23 +92,20 @@ namespace hw6.Services
                 .WholeTypes
                 .IsContains(propertyType);
             
-            var text = isContains ? "" : "This field is required.";
-            
-                var input = new TagBuilder("input")
+            var value = model is null ? "" : propertyInfo.GetValue(model)?.ToString();
+            var input = new TagBuilder("input")
+            {
+                Attributes =
                 {
-                    Attributes =
-                    {
-                        {"class", "text-box single-line"},
-                        {"data-val", "true"},
-                        {"id", propertyInfo.Name},
-                        {"name", propertyInfo.Name},
-                        {"type", !isContains ? "text" : "number"},
-                        {"value", !isContains ? "" : "0"}
-                    }
-                };
-            
-            if (text is not "") input.Attributes.Add("data-val-required", text);
-            
+                    {"class", "text-box single-line"},
+                    {"data-val", "true"},
+                    {"id", propertyInfo.Name},
+                    {"name", propertyInfo.Name},
+                    {"type", !isContains ? "text" : "number"},
+                    {"value", value}
+                }
+            };
+
             var @class = new TagBuilder("div")
             {
                 Attributes = {{"class", "editor-field"}}
