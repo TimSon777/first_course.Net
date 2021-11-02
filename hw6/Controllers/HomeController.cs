@@ -33,7 +33,7 @@ namespace hw6.Controllers
         [HttpGet]
         public IActionResult Profile()
         {
-            return View(new Profile());
+            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

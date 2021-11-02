@@ -11,6 +11,7 @@ namespace hw6.Services
     {
         public static IHtmlContent? Validate(PropertyInfo propertyInfo, object model)
         {
+            if (model is null) return null;
             var attributes = propertyInfo.GetCustomAttributes<ValidationAttribute>();
 
             foreach (var attr in attributes)

@@ -15,8 +15,8 @@ namespace hw6.Services
         {
             var model = helper
                 .ViewData
-                .Model
-                .GetType();
+                .ModelMetadata
+                .ModelType;
             
             var fieldsHtml = model
                 .GetProperties()
