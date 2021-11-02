@@ -12,7 +12,7 @@ namespace hw6.Services
         public static IHtmlContent? Validate(PropertyInfo propertyInfo, object model)
         {
             var attributes = propertyInfo.GetCustomAttributes<ValidationAttribute>();
-            var spans = new List<IHtmlContent>();
+
             foreach (var attr in attributes)
             {
                 var value = propertyInfo.GetValue(model);
@@ -28,11 +28,10 @@ namespace hw6.Services
                     }
                 };
                 
-                span.InnerHtml.Append(attr.ErrorMessage ?? attr.FormatErrorMessage(propertyInfo.Name));
-                spans.Add(span);
+                return span.InnerHtml.Append(attr.ErrorMessage ?? attr.FormatErrorMessage(propertyInfo.Name));
             }
 
-            return spans.FirstOrDefault();
+            return null;
         }
     }
 }
