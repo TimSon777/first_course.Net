@@ -92,7 +92,12 @@ namespace hw6.Services
                 .WholeTypes
                 .IsContains(propertyType);
             
-            var value = model is null ? "" : propertyInfo.GetValue(model)?.ToString();
+            var value = model is not null 
+                ? propertyInfo.GetValue(model)?.ToString() 
+                : isContains 
+                    ? "0" 
+                    : "" ;
+            
             var input = new TagBuilder("input")
             {
                 Attributes =
