@@ -9,7 +9,7 @@ namespace hw6.Services
 {
     public static class Validation
     {
-        public static IHtmlContent? Validate(PropertyInfo propertyInfo, object model)
+        public static IHtmlContent? GetErrorOrNull(PropertyInfo propertyInfo, object model)
         {
             if (model is null) return null;
             var attributes = propertyInfo.GetCustomAttributes<ValidationAttribute>();
@@ -29,7 +29,8 @@ namespace hw6.Services
                     }
                 };
                 
-                return span.InnerHtml.Append(attr.ErrorMessage ?? attr.FormatErrorMessage(propertyInfo.Name));
+                span.InnerHtml.Append(attr.ErrorMessage ?? attr.FormatErrorMessage(propertyInfo.Name));
+                return span;
             }
 
             return null;

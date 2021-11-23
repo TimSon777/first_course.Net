@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
 using System.Linq;
 using System.Reflection;
 using System.Text.Encodings.Web;
@@ -27,7 +25,7 @@ namespace hw6.Services
         
         private static string ConvertFieldToHtml(this PropertyInfo propertyInfo, object model)
         {
-            var span = Validation.Validate(propertyInfo, model);
+            var span = Validation.GetErrorOrNull(propertyInfo, model);
             return propertyInfo.GetLabelForTitle() + (
                 propertyInfo.PropertyType.IsEnum
                     ? propertyInfo.GetEnumSelectList()

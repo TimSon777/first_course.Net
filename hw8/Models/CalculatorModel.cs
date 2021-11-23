@@ -2,6 +2,11 @@
 {
     public class CalculatorModel
     {
-        public string Answer { get; set; }
+        public string Answer { get; }
+
+        public CalculatorModel(string answer)
+        {
+            Answer = answer;
+        }
     }
 }
