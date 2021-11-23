@@ -19,16 +19,13 @@ jobs:
         dotnet-version: 5.0.x
     - name: Restore dependencies
       run: dotnet restore
-      working-directory: ./hw7
+      working-directory: ./hw8
     - name: Build
       run: dotnet build --no-restore
-      working-directory: ./hw7
+      working-directory: ./hw8
     - name: Test
       run: dotnet test --no-build --verbosity normal
-      working-directory: ./Tests7
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
-      working-directory: ./Tests7Integration
+      working-directory: ./Tests8
     - name: Codecov
       uses: codecov/codecov-action@v2.1.0
       with: 
