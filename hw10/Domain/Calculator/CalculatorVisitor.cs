@@ -14,11 +14,13 @@ namespace hw10.Domain.Calculator
         {
             await Task.Delay(1000);
 
-            var left  = await VisitAsync(exp.Left);
-            var right = await VisitAsync(exp.Right);
+            var leftTask  = VisitAsync(exp.Left);
+            var rightTask = VisitAsync(exp.Right);
+
+            await Task.WhenAll(leftTask, rightTask);
             
-            var leftResult  = ((ConstantExpression) left).Value as double?;
-            var rightResult = ((ConstantExpression) right).Value as double?;
+            var leftResult  = ((ConstantExpression) await leftTask).Value as double?;
+            var rightResult = ((ConstantExpression) await rightTask).Value as double?;
             
             var res = exp.NodeType switch
             {
