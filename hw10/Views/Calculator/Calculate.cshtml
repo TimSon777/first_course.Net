@@ -1,0 +1,32 @@
+﻿@model dynamic
+
+@{
+    ViewBag.Title = "Калькулятор";
+    Layout = "_Layout";
+}
+
+<div class="card">
+    <div class="card-body p-5">
+        <div class="text-center">
+            <h3 class="card-title">Калькулятор</h3>
+        </div>
+        <form method="post" asp-action="Calculate">
+            <label for="calculator"><h4>Введите выражение</h4></label>
+            <div class="form-group">
+                <div class="mb-3">
+                    <input type="text" 
+                           id="calculator" 
+                           placeholder="(2 * 5) / 20 - 4 - ((2 + 1) - 3)" 
+                           class="form-control"
+                           name="expression">
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-outline-secondary" type="submit">Вычислить</button>
+                    </div>
+                    <span id="result" class="form-control">@Model?.Answer</span>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

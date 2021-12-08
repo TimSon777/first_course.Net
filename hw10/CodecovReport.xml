@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root CoveredStatements="174" TotalStatements="177" CoveragePercent="98" ReportType="DetailedXml" DotCoverVersion="2021.2.1">
+  <FileIndices>
+    <File Index="1" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw6\Controllers\HomeController.cs" ChecksumAlgorithm="SHA256" Checksum="ADBA1FDCBB895437C0F153E0C42CD4053044B1BD88FA91ED0A57AED7A38B8EE8" />
+    <File Index="2" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw6\Enums\Sex.cs" ChecksumAlgorithm="SHA256" Checksum="2B04474C33F11DBEE11FB863E93F76123A53BA1CF4264F6998830E57DCB38625" />
+    <File Index="3" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw6\Models\ErrorViewModel.cs" ChecksumAlgorithm="SHA256" Checksum="ADFE866F98FAF7E5887D52802776A00816DF7AFEE6ECC5E8D6077A1E19D4C039" />
+    <File Index="4" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw6\Models\Profile.cs" ChecksumAlgorithm="SHA256" Checksum="3B31F6506EF5C35463AC182DB7140804D8D6A3A3141FEA9E572DDDBD72930E02" />
+    <File Index="5" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw6\Program.cs" ChecksumAlgorithm="SHA256" Checksum="41B6401A124ED938E3BA80247873B109503C5B457A9D2D43ED22B871AF91FA0C" />
+    <File Index="6" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw6\Services\HtmlExtension.cs" ChecksumAlgorithm="SHA256" Checksum="13E0A4D425CF812847B7AE26CE1E48DDB4C64FBD5DC5971CF3966A3467165724" />
+    <File Index="7" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw6\Services\IntegerTypes.cs" ChecksumAlgorithm="SHA256" Checksum="0B35B9C91C054FF36BCEBB4441382762F5DD345ED9E41CF18A0AF126BDAA4E55" />
+    <File Index="8" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw6\Services\PairValueNameEnum.cs" ChecksumAlgorithm="SHA256" Checksum="ED35D253C832274CCAE3045E8DE5C56354663A5E2B1C6DF965423576E04E9A13" />
+    <File Index="9" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw6\Services\Regexes.cs" ChecksumAlgorithm="SHA256" Checksum="EDA2A0742D67C2D825F2172A1E5B65CE60F326142F90E1CFE49737E625D83ABC" />
+    <File Index="10" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw6\Services\StringExtension.cs" ChecksumAlgorithm="SHA256" Checksum="8AE4C81341A37AAA24187FE4E5C7B67F5CF51A2F9C5DD4FC0AC8059645CAE868" />
+    <File Index="11" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw6\Services\Validation.cs" ChecksumAlgorithm="SHA256" Checksum="B0CF8B27130ED850302D069D389B89B454158C62CDE2A299F290696DECD2E821" />
+    <File Index="12" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw6\Startup.cs" ChecksumAlgorithm="SHA256" Checksum="373B03B3F1D4EAE438D90DB573396290197B98ACD31DCA4D919B9513E0705C79" />
+    <File Index="13" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw6\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" ChecksumAlgorithm="SHA256" Checksum="3DAB221DDB7A8D7D050731DC8D289DF26D56F7DABEB91B3D7F96E5CB6C994C29" />
+    <File Index="14" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw6\obj\Debug\net5.0\hw6.AssemblyInfo.cs" ChecksumAlgorithm="SHA256" Checksum="82F1CD261162DEBFDE196EB085D5C87E396F3F5267628138A5254F83EE2CB0D2" />
+    <File Index="15" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw6\obj\Debug\net5.0\hw6.RazorAssemblyInfo.cs" ChecksumAlgorithm="SHA256" Checksum="7C08E6DACE14DC7569A7E835C12AFBB0EAFF6BB7DB7AA80EC98448284187B87A" />
+    <File Index="16" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw8\Controllers\CalculatorController.cs" ChecksumAlgorithm="SHA256" Checksum="53C373AE431F41BB3B48B944BA2AF8C7647995704F3F453A3A7C84A92B47461C" />
+    <File Index="17" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw8\Controllers\HomeController.cs" ChecksumAlgorithm="SHA256" Checksum="574D1D06C72DE2E42B985782D1E874A9300A3E79452D46FFDCED2C684072E459" />
+    <File Index="18" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw8\Infrastructure\StringExtensions.cs" ChecksumAlgorithm="SHA256" Checksum="9AD411E2F0023A5E5D47BB16E6D8257742E48BC114C28952AAEFAA14917FC08A" />
+    <File Index="19" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw8\Models\CalculatorModel.cs" ChecksumAlgorithm="SHA256" Checksum="9B1B9C421111E9D1975D8405B39EBA4F251F31E4A918E59806F49DCFDB8BD0E7" />
+    <File Index="20" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw8\Models\ErrorViewModel.cs" ChecksumAlgorithm="SHA256" Checksum="CF5FCCEF516A4CC2C2938A7249863ACD4B2DF78E6239A9F27D69FBED6F0FF186" />
+    <File Index="21" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw8\Program.cs" ChecksumAlgorithm="SHA256" Checksum="599379BA940B0764713FF407EA226332E7214E1BC45BA142F2B2FF5D3F7E3FBB" />
+    <File Index="22" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw8\Services\CalculatorLogic\ExpressionCalculator.cs" ChecksumAlgorithm="SHA256" Checksum="EA05E14C177D09F31647B0C9D4094FAB5E740BB028EAA327BC3E25D3ADE1C4BD" />
+    <File Index="23" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw8\Services\CalculatorLogic\IExpressionCalculator.cs" ChecksumAlgorithm="SHA256" Checksum="40935B1A8C8C755F3FFD7A20D2DEF40E9339E45A02BF11568C2E34C128D7C530" />
+    <File Index="24" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw8\Services\CalculatorLogic\Infrastructure\CalculatorVisitor.cs" ChecksumAlgorithm="SHA256" Checksum="356F3232F1CAE8ED0AC2B269576D66104895D911C9777B97C7E96B3F0B3B319F" />
+    <File Index="25" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw8\Services\CalculatorLogic\Infrastructure\Operation.cs" ChecksumAlgorithm="SHA256" Checksum="CBEA51E55F2850D78D1B9766C6922B47E825DCF4FEAEFF8A0502AE13EC8ADF98" />
+    <File Index="26" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw8\Startup.cs" ChecksumAlgorithm="SHA256" Checksum="83677A93B31C3FE38122FCE2FC72DD309D7D4C19FCE96CA08B97D9E0172E9ED4" />
+    <File Index="27" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw8\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" ChecksumAlgorithm="SHA256" Checksum="3DAB221DDB7A8D7D050731DC8D289DF26D56F7DABEB91B3D7F96E5CB6C994C29" />
+    <File Index="28" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw8\obj\Debug\net5.0\hw8.AssemblyInfo.cs" ChecksumAlgorithm="SHA256" Checksum="3D254D2E2EC302EB7736BDB6BA72386993DDC3CFB421C3061C29F33CE28E9D1C" />
+    <File Index="29" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw8\obj\Debug\net5.0\hw8.RazorAssemblyInfo.cs" ChecksumAlgorithm="SHA256" Checksum="021B2428F74FC3C0C9CB15FB9846EC1C37DDB42B95B442C5B2885863EAF21011" />
+    <File Index="30" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\Tests6\PairValueNameEnumTests.cs" ChecksumAlgorithm="SHA256" Checksum="97FD0BE5437CE6DB9036CD111D4DDA8AED14FC0049C6206257EA5C648C48A505" />
+    <File Index="31" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\Tests6\StringExtensionTests.cs" ChecksumAlgorithm="SHA256" Checksum="C1142CEB65775606B00E0B872E628DCD9473F680246C0815321E387C2539A894" />
+    <File Index="32" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\Tests6\ValidationTests.cs" ChecksumAlgorithm="SHA256" Checksum="ED1BF4BC2071AD292D1664DA7CAED681812BFB19F99C3D31266994A0F5C32E4E" />
+    <File Index="33" Name="C:\Users\Тимур\.nuget\packages\microsoft.net.test.sdk\16.9.4\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" ChecksumAlgorithm="SHA256" Checksum="D66F12F9433816A8C7DC1B2ACB9E1010F5418F5EEB51E80F1DF57AA1DCAB8D8A" />
+    <File Index="34" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\Tests6\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" ChecksumAlgorithm="SHA256" Checksum="3DAB221DDB7A8D7D050731DC8D289DF26D56F7DABEB91B3D7F96E5CB6C994C29" />
+    <File Index="35" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\Tests6\obj\Debug\net5.0\Tests6.AssemblyInfo.cs" ChecksumAlgorithm="SHA256" Checksum="B5A452FD6D3BC9151CF362A3F343E99EFEFFE73C0E6FD3EA5AC1D0C1C86A65B1" />
+    <File Index="56" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw9\obj\Debug\net5.0\hw9.RazorAssemblyInfo.cs" ChecksumAlgorithm="SHA256" Checksum="A8FC5797B93F301060416EFC1E413842B937AE2C6D99A6BD167DD600D5F67042" />
+    <File Index="55" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw9\obj\Debug\net5.0\hw9.AssemblyInfo.cs" ChecksumAlgorithm="SHA256" Checksum="67F174E2D547F918512E4A3A514AAB1E30C8CAB1FE4CE70B8F0F1344256E3909" />
+    <File Index="54" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw9\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" ChecksumAlgorithm="SHA256" Checksum="3DAB221DDB7A8D7D050731DC8D289DF26D56F7DABEB91B3D7F96E5CB6C994C29" />
+    <File Index="53" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw9\Startup.cs" ChecksumAlgorithm="SHA256" Checksum="5B3469F42DEDAD74FA5A99718ED8CB6856D3C4F7DB3339FAE049977E3E49DB7C" />
+    <File Index="52" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw9\Services\Database\Models\Calculation.cs" ChecksumAlgorithm="SHA256" Checksum="8C0F16612CBB8900641F661D70EB469B526FE90F30620DF1696F9C275640E7E6" />
+    <File Index="51" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw9\Services\Database\ApplicationDbContext.cs" ChecksumAlgorithm="SHA256" Checksum="05E6B27B8C031913AD35FE47DB8664E058BDE28171DE4CB31F8C80070D3BF503" />
+    <File Index="50" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw9\Program.cs" ChecksumAlgorithm="SHA256" Checksum="0652BE42C820B435B272D436ECE9AFB3DE0F83E0BF4EAEF0CC66136E54810C23" />
+    <File Index="49" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw9\Models\ErrorViewModel.cs" ChecksumAlgorithm="SHA256" Checksum="F02989830A0B0F1B41F7C8C76A5BDCA7CE91C6A7D729D706DEDEA06AB2A233B1" />
+    <File Index="48" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw9\Models\CalculatorModel.cs" ChecksumAlgorithm="SHA256" Checksum="AFDF77076A53114046AA8740A1BF497A2D45156095282E69686E0A7E291B9497" />
+    <File Index="47" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw9\Migrations\ApplicationDbContextModelSnapshot.cs" ChecksumAlgorithm="SHA256" Checksum="871050DB50BDED26866C97BB98D28A996B31BE4C7357AE74C01FD359C8B12BE0" />
+    <File Index="46" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw9\Migrations\20211201162231_Creating.Designer.cs" ChecksumAlgorithm="SHA256" Checksum="65E027CACB2F700B97F4F312F65CBD215DDF8CE3009946F1290D5CA715C7A67D" />
+    <File Index="45" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw9\Migrations\20211201162231_Creating.cs" ChecksumAlgorithm="SHA256" Checksum="1968159BAEEE7D3B0B7192D6F615267A7680235E26DB02FC09EDD455D1DBA693" />
+    <File Index="44" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw9\Infrastructure\StringExtensions.cs" ChecksumAlgorithm="SHA256" Checksum="A1EDFD4532D78CB4C6CD590206BE05C96DB460B48A8D27C64C78951ED1B144B5" />
+    <File Index="43" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw9\Infrastructure\Calculator\Operation.cs" ChecksumAlgorithm="SHA256" Checksum="DB855204E20079D00120E8545C3CF5DACA6FF96C82D9165995DB9430693BB89B" />
+    <File Index="42" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw9\Infrastructure\Calculator\IExpressionCalculator.cs" ChecksumAlgorithm="SHA256" Checksum="86BF8A1985F05F9C90C63A3CB8D64740686AD4906B02955CFCA3225E1EE44A07" />
+    <File Index="41" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw9\Infrastructure\Calculator\ICashedCalculator.cs" ChecksumAlgorithm="SHA256" Checksum="25CF3945F7671537BCBE5DC41C6DFFE7E59CF6E705A5834651BACCA1803A23A6" />
+    <File Index="40" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw9\Infrastructure\Calculator\ExpressionCalculator.cs" ChecksumAlgorithm="SHA256" Checksum="6060DD8F99A8CFEE893D21226CBBA54767FC084FA1CDC62A8EEB8A40D931B2B9" />
+    <File Index="39" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw9\Infrastructure\Calculator\CashedCalculator.cs" ChecksumAlgorithm="SHA256" Checksum="A712CB40EC6467F36F63479A1D7A738D41102E92F6375275CCA3F89EBF85C0C7" />
+    <File Index="38" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw9\Infrastructure\Calculator\CalculatorVisitor.cs" ChecksumAlgorithm="SHA256" Checksum="6E6BCB8F2F6305DEBF8FBAC53DF629DBC32FCC522C60CC6B8359F4E99D4E3A67" />
+    <File Index="37" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw9\Controllers\HomeController.cs" ChecksumAlgorithm="SHA256" Checksum="0C14E9A2013F099A1F4DE16C1B2A316AFB23964100192F3F85CD48F103120FAB" />
+    <File Index="36" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw9\Controllers\CalculatorController.cs" ChecksumAlgorithm="SHA256" Checksum="D033B37E826B1B27F5B41E019742D8957967C1099050F647E0C3D6E14D2F7A6F" />
+    <File Index="57" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\Tests9\IntegrationTests.cs" ChecksumAlgorithm="SHA256" Checksum="01E5B8E2942970AEBD9BDF8C6A0C20F12FA1E8EE74FEB02555FBA49756A8FEEF" />
+    <File Index="58" Name="C:\Users\Тимур\.nuget\packages\microsoft.net.test.sdk\16.11.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" ChecksumAlgorithm="SHA256" Checksum="D66F12F9433816A8C7DC1B2ACB9E1010F5418F5EEB51E80F1DF57AA1DCAB8D8A" />
+    <File Index="59" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\Tests9\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" ChecksumAlgorithm="SHA256" Checksum="3DAB221DDB7A8D7D050731DC8D289DF26D56F7DABEB91B3D7F96E5CB6C994C29" />
+    <File Index="60" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\Tests9\obj\Debug\net5.0\Tests9.AssemblyInfo.cs" ChecksumAlgorithm="SHA256" Checksum="C8B0C647961FA615B7D7612E94B780C3873A0D7BA5C179D9CC7F63D0E71750F6" />
+    <File Index="65" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw3\Tests3\CalculatorTests.fs" ChecksumAlgorithm="SHA256" Checksum="B7E5A1BD29D913DAB3674F96B77E03C990BED6FA161798B6738CABAFC79E5179" />
+    <File Index="64" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw3\Tests3\ProgramTests.fs" ChecksumAlgorithm="SHA256" Checksum="30DDD19C95FAD3125FB1A405C4CCD114F9AA6AB62C758CAF96D0332027EA9778" />
+    <File Index="63" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw3\Tests3\ErrorMessagesTests.fs" ChecksumAlgorithm="SHA256" Checksum="FBFBF1D4070F745B9B55706ED755D6B369468A5E8C09299A13916A8CD9073126" />
+    <File Index="62" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw3\Tests3\ParserTests.fs" ChecksumAlgorithm="SHA256" Checksum="7A1BE00D40CB4EF74906AD3F300AD65CC029F9A7F89068A0D3EC49F21428B739" />
+    <File Index="61" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw3\Tests3\Program.fs" ChecksumAlgorithm="SHA256" Checksum="3C4FDB2C06EAA43B2192CB700A57512D55B7E95928DC3C8288B01546D5D4E1BC" />
+    <File Index="66" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\Tests7\CalculatorTests.cs" ChecksumAlgorithm="SHA256" Checksum="3C5CD015238BD238CA5216589E159B97C8D4C019C84794C0F308AA451022BBCC" />
+    <File Index="67" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\Tests7\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" ChecksumAlgorithm="SHA256" Checksum="3DAB221DDB7A8D7D050731DC8D289DF26D56F7DABEB91B3D7F96E5CB6C994C29" />
+    <File Index="68" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\Tests7\obj\Debug\net5.0\Tests7.AssemblyInfo.cs" ChecksumAlgorithm="SHA256" Checksum="E67467C0E00212CEB8C7DA33B3BB023A14E425118E148A8946835BF6A5AB9AE7" />
+    <File Index="69" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw7\Controllers\Calculator\Calculator.cs" ChecksumAlgorithm="SHA256" Checksum="B759B3A8F02E278EC9AA78FBC381A80D27B36CC8989FDA730E6BE5A51832982B" />
+    <File Index="70" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw7\Controllers\Calculator\CalculatorController.cs" ChecksumAlgorithm="SHA256" Checksum="42D9025DB5D24A9A379BE1C0005E5D70EC483CB0B86EB12E8E7413D0E2CE570F" />
+    <File Index="71" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw7\Controllers\HomeController.cs" ChecksumAlgorithm="SHA256" Checksum="F9C357EDDCD866D3F7A04BD15202FC6EB8FC0713950BBEAC9E0C55D5ED77CD7A" />
+    <File Index="72" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw7\Enums\CalculatorOperation.cs" ChecksumAlgorithm="SHA256" Checksum="09520948EDDA895811A46C6D27D1B4D9EAAB85F8EF98F7E28842181A981520E8" />
+    <File Index="73" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw7\Interfaces\ICalculator.cs" ChecksumAlgorithm="SHA256" Checksum="8D78CF5C79787A501BCF39FCA3FA2222894B17E2D8DE5E2947A04DE696A69C30" />
+    <File Index="74" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw7\Models\ErrorViewModel.cs" ChecksumAlgorithm="SHA256" Checksum="0F787393E7E49FEC19D0511C87C75171CA974E87FCC25C1800854DF1E0350941" />
+    <File Index="75" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw7\Program.cs" ChecksumAlgorithm="SHA256" Checksum="DE16EEB009F432CF732EC6CBE24B70FF7A0AE1DB61B58CD363EC0D0E07DBC032" />
+    <File Index="76" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw7\Startup.cs" ChecksumAlgorithm="SHA256" Checksum="28362B9A8D0020F597EFF0D1F5300BF963FE460FD534F88B7E6A9E3BDCF2F90F" />
+    <File Index="77" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw7\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" ChecksumAlgorithm="SHA256" Checksum="3DAB221DDB7A8D7D050731DC8D289DF26D56F7DABEB91B3D7F96E5CB6C994C29" />
+    <File Index="78" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw7\obj\Debug\net5.0\hw7.AssemblyInfo.cs" ChecksumAlgorithm="SHA256" Checksum="0F0FAC3C7C83AA298E82374B50A2025D88A2CA8EB1DE418ADE09A1AB9914E765" />
+    <File Index="79" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw7\obj\Debug\net5.0\hw7.RazorAssemblyInfo.cs" ChecksumAlgorithm="SHA256" Checksum="51B24DBA6F62CC40BDADD819E096C021935271BD847A09775E3115BF3167AFC6" />
+    <File Index="80" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\Tests7Integration\CalculatorIntegrationTests.cs" ChecksumAlgorithm="SHA256" Checksum="EA86E68353FEA030111B706E5A97D96C2E8ACD9CC725782DE6C7A80A9ACE82AE" />
+    <File Index="81" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\Tests7Integration\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" ChecksumAlgorithm="SHA256" Checksum="3DAB221DDB7A8D7D050731DC8D289DF26D56F7DABEB91B3D7F96E5CB6C994C29" />
+    <File Index="82" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\Tests7Integration\obj\Debug\net5.0\Tests7Integration.AssemblyInfo.cs" ChecksumAlgorithm="SHA256" Checksum="B82FFC7C19ADF3C28BB5B8ECD729AE1D82B5FF0E7D98B2E83DC8817AF566BF96" />
+    <File Index="83" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\Tests8\IntegrationTests.cs" ChecksumAlgorithm="SHA256" Checksum="DC9C8A2F4C55F401E84459AB68E5DE8931CA3CD299142D8005E0AB060E9AB34C" />
+    <File Index="84" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\Tests8\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" ChecksumAlgorithm="SHA256" Checksum="3DAB221DDB7A8D7D050731DC8D289DF26D56F7DABEB91B3D7F96E5CB6C994C29" />
+    <File Index="85" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\Tests8\obj\Debug\net5.0\Tests8.AssemblyInfo.cs" ChecksumAlgorithm="SHA256" Checksum="F3C1B799E427168A2DFA1CA65C256663943D1032731727AFABA49F0B0C21C25B" />
+    <File Index="104" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw10\obj\Debug\net5.0\hw10.RazorAssemblyInfo.cs" ChecksumAlgorithm="SHA256" Checksum="2A425CACF9F4A849219E8829E05B13E2FE6FC8551844C3E92C1343314654367D" />
+    <File Index="103" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw10\obj\Debug\net5.0\hw10.AssemblyInfo.cs" ChecksumAlgorithm="SHA256" Checksum="82910B5A8FCCCC2230FDEC9DFEE307DF927F6DF3D0ECDA304A811B596EFF2AA0" />
+    <File Index="102" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw10\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" ChecksumAlgorithm="SHA256" Checksum="3DAB221DDB7A8D7D050731DC8D289DF26D56F7DABEB91B3D7F96E5CB6C994C29" />
+    <File Index="101" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw10\Startup.cs" ChecksumAlgorithm="SHA256" Checksum="EE226CE3800E55B04F92EB47C46A1BFD08AB2E5F62F5764688625B90150FB7F7" />
+    <File Index="100" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw10\Services\Logging\IExceptionHandler.cs" ChecksumAlgorithm="SHA256" Checksum="DF192E2F6204C12D7FC7D18F72B1303B06FEA6416190CDFC62CF328ECA423E37" />
+    <File Index="99" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw10\Services\Logging\ExceptionHandler.cs" ChecksumAlgorithm="SHA256" Checksum="225E40DF04746BF95A79D185D1B47B980D5B82B7BA18B3D7C80B06F21D3D019F" />
+    <File Index="98" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw10\Services\Database\Models\Calculation.cs" ChecksumAlgorithm="SHA256" Checksum="BA58E803414E0AEBC2C163920CD3D7563A6F623F0960CA03DCB58583CB9895F2" />
+    <File Index="97" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw10\Services\Database\ApplicationDbContext.cs" ChecksumAlgorithm="SHA256" Checksum="FBA9E174DFF00DEE1A85DCB6450DC29FC4C270FB8848B5890EF14ACC46CA5352" />
+    <File Index="96" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw10\Program.cs" ChecksumAlgorithm="SHA256" Checksum="5DEF774ADF57349BB066ED60726C88B4068FBA06C0C5914CE86E2A8B70326ACB" />
+    <File Index="95" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw10\Models\ErrorViewModel.cs" ChecksumAlgorithm="SHA256" Checksum="05C9CE25E8070E37ECF1342AC4CE871A845EF110BBDB24E5A3A08B5098808930" />
+    <File Index="94" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw10\Models\CalculatorModel.cs" ChecksumAlgorithm="SHA256" Checksum="E1AC736F5698286D2BACADFD791BE8665EB8C98AA7590DDCA145F29EEC263BDD" />
+    <File Index="86" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw10\Infrastructure\StringExtensions.cs" ChecksumAlgorithm="SHA256" Checksum="164E68B502624ECD49C3EB8A322F2A785228B7C83F123EECE19E704CB4F4583E" />
+    <File Index="87" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw10\Domain\Calculator\OperationExtensions.cs" ChecksumAlgorithm="SHA256" Checksum="E55F32C88A114396F7B84C736ED512F5F3F3923200973EE9578EE2317CBABB9D" />
+    <File Index="88" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw10\Domain\Calculator\Operation.cs" ChecksumAlgorithm="SHA256" Checksum="2782503C47863BBEFC474C4EA8C33492D98133619D80E4A3228997AA0E3F7011" />
+    <File Index="89" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw10\Domain\Calculator\IExpressionVisitor.cs" ChecksumAlgorithm="SHA256" Checksum="88D0BF852BCE1663A9DD0240F16DEA01EE321C3A3892D529AA1ECF837B173533" />
+    <File Index="90" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw10\Domain\Calculator\IExpressionCalculator.cs" ChecksumAlgorithm="SHA256" Checksum="9A19CCE9C24AF7E61519F63AB918D0D9B836D944065ADB92493CA79FA6E9E586" />
+    <File Index="91" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw10\Domain\Calculator\ICashedCalculator.cs" ChecksumAlgorithm="SHA256" Checksum="CC109A78F7099703C86E094155EDFD250257A137CEA2A0B8CC6381B93A6E29B1" />
+    <File Index="92" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw10\Domain\Calculator\ExpressionCalculator.cs" ChecksumAlgorithm="SHA256" Checksum="689D50CA21254016987AB7B96FF1DA6E2E2F12A30FA545622A5FD1FBF9B2EBCE" />
+    <File Index="93" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw10\Domain\Calculator\CashedCalculator.cs" ChecksumAlgorithm="SHA256" Checksum="B100C98768498A0B8D971CDB090E4D83DBA439769E591D852C086627C14CA335" />
+    <File Index="105" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw10\Domain\Calculator\CalculatorVisitor.cs" ChecksumAlgorithm="SHA256" Checksum="C7DE31D5B57BB6C5B02FA34E77EDC7A038F2500C6DFF45EF6962A358631E38C5" />
+    <File Index="106" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw10\Controllers\HomeController.cs" ChecksumAlgorithm="SHA256" Checksum="86C22603FBC7E29B1AC2305EE3F0A1006FE1DE30FC5C1A9156C32DDD33891DD9" />
+    <File Index="107" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\hw10\Controllers\CalculatorController.cs" ChecksumAlgorithm="SHA256" Checksum="834B9C0C325CD763559D601DB89D4E89CBCEA2EC927C3A06F0753E62752BFBAD" />
+    <File Index="110" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\Tests10\obj\Debug\net5.0\Tests10.AssemblyInfo.cs" ChecksumAlgorithm="SHA256" Checksum="F4969FA054C2D0A4A66BDE9161DFC89CE65B87ACAB69607DE191219F4238B74A" />
+    <File Index="109" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\Tests10\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" ChecksumAlgorithm="SHA256" Checksum="3DAB221DDB7A8D7D050731DC8D289DF26D56F7DABEB91B3D7F96E5CB6C994C29" />
+    <File Index="108" Name="C:\Users\Тимур\Desktop\Repositories\first_course.Net\Tests10\IntegrationTests.cs" ChecksumAlgorithm="SHA256" Checksum="03CBF9F035AFFC789F8D8BDEF17CC83F8CD223CCC7F41B9E0183D804D67F1913" />
+  </FileIndices>
+  <Assembly Name="hw10" CoveredStatements="138" TotalStatements="141" CoveragePercent="98">
+    <Namespace Name="hw10.Controllers" CoveredStatements="14" TotalStatements="14" CoveragePercent="100">
+      <Type Name="CalculatorController" CoveredStatements="14" TotalStatements="14" CoveragePercent="100">
+        <Type Name="&lt;Calculate&gt;d__4" CoveredStatements="9" TotalStatements="9" CoveragePercent="100">
+          <Method Name="MoveNext():System.Void" CoveredStatements="9" TotalStatements="9" CoveragePercent="100">
+            <Statement FileIndex="107" Line="30" Column="9" EndLine="30" EndColumn="10" Covered="True" />
+            <Statement FileIndex="107" Line="32" Column="13" EndLine="32" EndColumn="14" Covered="True" />
+            <Statement FileIndex="107" Line="33" Column="17" EndLine="33" EndColumn="70" Covered="True" />
+            <Statement FileIndex="107" Line="34" Column="17" EndLine="34" EndColumn="97" Covered="True" />
+            <Statement FileIndex="107" Line="36" Column="13" EndLine="36" EndColumn="32" Covered="True" />
+            <Statement FileIndex="107" Line="37" Column="13" EndLine="37" EndColumn="14" Covered="True" />
+            <Statement FileIndex="107" Line="38" Column="17" EndLine="38" EndColumn="45" Covered="True" />
+            <Statement FileIndex="107" Line="39" Column="17" EndLine="39" EndColumn="59" Covered="True" />
+            <Statement FileIndex="107" Line="41" Column="9" EndLine="41" EndColumn="10" Covered="True" />
+          </Method>
+        </Type>
+        <Method Name=".ctor(hw10.Domain.Calculator.ICashedCalculator,hw10.Services.Logging.IExceptionHandler):System.Void" CoveredStatements="5" TotalStatements="5" CoveragePercent="100">
+          <Statement FileIndex="107" Line="16" Column="9" EndLine="16" EndColumn="102" Covered="True" />
+          <Statement FileIndex="107" Line="17" Column="9" EndLine="17" EndColumn="10" Covered="True" />
+          <Statement FileIndex="107" Line="18" Column="13" EndLine="18" EndColumn="38" Covered="True" />
+          <Statement FileIndex="107" Line="19" Column="13" EndLine="19" EndColumn="50" Covered="True" />
+          <Statement FileIndex="107" Line="20" Column="9" EndLine="20" EndColumn="10" Covered="True" />
+        </Method>
+      </Type>
+    </Namespace>
+    <Namespace Name="hw10.Domain.Calculator" CoveredStatements="66" TotalStatements="69" CoveragePercent="96">
+      <Type Name="CalculatorVisitor" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+        <Type Name="&lt;VisitAsync&gt;d__0" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Method Name="MoveNext():System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+            <Statement FileIndex="105" Line="11" Column="16" EndLine="11" EndColumn="47" Covered="True" />
+          </Method>
+        </Type>
+        <Type Name="&lt;VisitAsync&gt;d__2" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Method Name="MoveNext():System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+            <Statement FileIndex="105" Line="35" Column="86" EndLine="35" EndColumn="90" Covered="True" />
+          </Method>
+        </Type>
+      </Type>
+      <Type Name="CashedCalculator" CoveredStatements="16" TotalStatements="16" CoveragePercent="100">
+        <Type Name="&lt;Calculate&gt;d__3" CoveredStatements="11" TotalStatements="11" CoveragePercent="100">
+          <Method Name="MoveNext():System.Void" CoveredStatements="11" TotalStatements="11" CoveragePercent="100">
+            <Statement FileIndex="93" Line="23" Column="9" EndLine="23" EndColumn="10" Covered="True" />
+            <Statement FileIndex="93" Line="24" Column="13" EndLine="24" EndColumn="40" Covered="True" />
+            <Statement FileIndex="93" Line="25" Column="13" EndLine="26" EndColumn="59" Covered="True" />
+            <Statement FileIndex="93" Line="28" Column="13" EndLine="28" EndColumn="41" Covered="True" />
+            <Statement FileIndex="93" Line="28" Column="42" EndLine="28" EndColumn="112" Covered="True" />
+            <Statement FileIndex="93" Line="30" Column="13" EndLine="30" EndColumn="69" Covered="True" />
+            <Statement FileIndex="93" Line="32" Column="13" EndLine="36" EndColumn="15" Covered="True" />
+            <Statement FileIndex="93" Line="38" Column="13" EndLine="38" EndColumn="76" Covered="True" />
+            <Statement FileIndex="93" Line="39" Column="13" EndLine="39" EndColumn="60" Covered="True" />
+            <Statement FileIndex="93" Line="41" Column="13" EndLine="41" EndColumn="27" Covered="True" />
+            <Statement FileIndex="93" Line="42" Column="9" EndLine="42" EndColumn="10" Covered="True" />
+          </Method>
+        </Type>
+        <Method Name=".ctor(hw10.Domain.Calculator.IExpressionCalculator,hw10.Services.Database.ApplicationDbContext):System.Void" CoveredStatements="5" TotalStatements="5" CoveragePercent="100">
+          <Statement FileIndex="93" Line="14" Column="9" EndLine="16" EndColumn="55" Covered="True" />
+          <Statement FileIndex="93" Line="17" Column="9" EndLine="17" EndColumn="10" Covered="True" />
+          <Statement FileIndex="93" Line="18" Column="13" EndLine="18" EndColumn="58" Covered="True" />
+          <Statement FileIndex="93" Line="19" Column="13" EndLine="19" EndColumn="58" Covered="True" />
+          <Statement FileIndex="93" Line="20" Column="9" EndLine="20" EndColumn="10" Covered="True" />
+        </Method>
+      </Type>
+      <Type Name="ExpressionCalculator" CoveredStatements="48" TotalStatements="51" CoveragePercent="94">
+        <Type Name="&lt;&gt;c__DisplayClass2_0" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Method Name="&lt;Calculate&gt;b__0(hw10.Services.Calculator.Operation):System.Linq.Expressions.BinaryExpression" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+            <Statement FileIndex="92" Line="50" Column="38" EndLine="50" EndColumn="74" Covered="True" />
+          </Method>
+        </Type>
+        <Type Name="&lt;Calculate&gt;d__2" CoveredStatements="36" TotalStatements="39" CoveragePercent="92">
+          <Method Name="MoveNext():System.Void" CoveredStatements="36" TotalStatements="39" CoveragePercent="92">
+            <Statement FileIndex="92" Line="19" Column="9" EndLine="19" EndColumn="10" Covered="True" />
+            <Statement FileIndex="92" Line="20" Column="13" EndLine="20" EndColumn="50" Covered="True" />
+            <Statement FileIndex="92" Line="21" Column="13" EndLine="21" EndColumn="53" Covered="True" />
+            <Statement FileIndex="92" Line="22" Column="13" EndLine="22" EndColumn="47" Covered="True" />
+            <Statement FileIndex="92" Line="24" Column="13" EndLine="24" EndColumn="69" Covered="True" />
+            <Statement FileIndex="92" Line="26" Column="13" EndLine="26" EndColumn="20" Covered="True" />
+            <Statement FileIndex="92" Line="26" Column="31" EndLine="26" EndColumn="39" Covered="True" />
+            <Statement FileIndex="92" Line="26" Column="22" EndLine="26" EndColumn="27" Covered="True" />
+            <Statement FileIndex="92" Line="27" Column="13" EndLine="27" EndColumn="14" Covered="True" />
+            <Statement FileIndex="92" Line="28" Column="17" EndLine="28" EndColumn="104" Covered="True" />
+            <Statement FileIndex="92" Line="29" Column="17" EndLine="29" EndColumn="18" Covered="True" />
+            <Statement FileIndex="92" Line="30" Column="21" EndLine="30" EndColumn="78" Covered="True" />
+            <Statement FileIndex="92" Line="31" Column="17" EndLine="31" EndColumn="18" Covered="True" />
+            <Statement FileIndex="92" Line="32" Column="22" EndLine="32" EndColumn="77" Covered="True" />
+            <Statement FileIndex="92" Line="33" Column="17" EndLine="33" EndColumn="18" Covered="True" />
+            <Statement FileIndex="92" Line="34" Column="21" EndLine="34" EndColumn="61" Covered="True" />
+            <Statement FileIndex="92" Line="35" Column="25" EndLine="35" EndColumn="87" Covered="True" />
+            <Statement FileIndex="92" Line="40" Column="21" EndLine="40" EndColumn="22" Covered="True" />
+            <Statement FileIndex="92" Line="41" Column="25" EndLine="41" EndColumn="79" Covered="True" />
+            <Statement FileIndex="92" Line="42" Column="25" EndLine="42" EndColumn="42" Covered="False" />
+            <Statement FileIndex="92" Line="43" Column="21" EndLine="43" EndColumn="22" Covered="False" />
+            <Statement FileIndex="92" Line="37" Column="21" EndLine="39" EndColumn="66" Covered="True" />
+            <Statement FileIndex="92" Line="45" Column="21" EndLine="45" EndColumn="61" Covered="True" />
+            <Statement FileIndex="92" Line="45" Column="62" EndLine="45" EndColumn="89" Covered="True" />
+            <Statement FileIndex="92" Line="46" Column="17" EndLine="46" EndColumn="18" Covered="True" />
+            <Statement FileIndex="92" Line="47" Column="13" EndLine="47" EndColumn="14" Covered="True" />
+            <Statement FileIndex="92" Line="26" Column="28" EndLine="26" EndColumn="30" Covered="True" />
+            <Statement FileIndex="92" Line="49" Column="13" EndLine="49" EndColumn="20" Covered="True" />
+            <Statement FileIndex="92" Line="49" Column="33" EndLine="50" EndColumn="75" Covered="True" />
+            <Statement FileIndex="92" Line="49" Column="22" EndLine="49" EndColumn="29" Covered="True" />
+            <Statement FileIndex="92" Line="51" Column="13" EndLine="51" EndColumn="14" Covered="True" />
+            <Statement FileIndex="92" Line="52" Column="17" EndLine="52" EndColumn="34" Covered="True" />
+            <Statement FileIndex="92" Line="53" Column="13" EndLine="53" EndColumn="14" Covered="True" />
+            <Statement FileIndex="92" Line="49" Column="30" EndLine="49" EndColumn="32" Covered="True" />
+            <Statement FileIndex="92" Line="55" Column="13" EndLine="55" EndColumn="66" Covered="True" />
+            <Statement FileIndex="92" Line="56" Column="13" EndLine="56" EndColumn="67" Covered="True" />
+            <Statement FileIndex="92" Line="56" Column="68" EndLine="56" EndColumn="79" Covered="True" />
+            <Statement FileIndex="92" Line="57" Column="13" EndLine="57" EndColumn="22" Covered="False" />
+            <Statement FileIndex="92" Line="58" Column="9" EndLine="58" EndColumn="10" Covered="True" />
+          </Method>
+        </Type>
+        <Method Name=".ctor(hw10.Services.Calculator.IExpressionVisitor):System.Void" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+          <Statement FileIndex="92" Line="16" Column="9" EndLine="16" EndColumn="64" Covered="True" />
+          <Statement FileIndex="92" Line="16" Column="68" EndLine="16" EndColumn="86" Covered="True" />
+        </Method>
+        <Method Name="HighlightExpressionInBracketsInExpression(System.Collections.Generic.Stack&lt;hw10.Services.Calculator.Operation&gt;,System.Collections.Generic.Stack&lt;System.Linq.Expressions.Expression&gt;):System.Void" CoveredStatements="9" TotalStatements="9" CoveragePercent="100">
+          <Statement FileIndex="92" Line="63" Column="9" EndLine="63" EndColumn="10" Covered="True" />
+          <Statement FileIndex="92" Line="64" Column="13" EndLine="64" EndColumn="53" Covered="True" />
+          <Statement FileIndex="92" Line="66" Column="13" EndLine="66" EndColumn="14" Covered="True" />
+          <Statement FileIndex="92" Line="67" Column="17" EndLine="67" EndColumn="78" Covered="True" />
+          <Statement FileIndex="92" Line="68" Column="17" EndLine="68" EndColumn="41" Covered="True" />
+          <Statement FileIndex="92" Line="69" Column="17" EndLine="69" EndColumn="53" Covered="True" />
+          <Statement FileIndex="92" Line="70" Column="13" EndLine="70" EndColumn="14" Covered="True" />
+          <Statement FileIndex="92" Line="65" Column="13" EndLine="65" EndColumn="62" Covered="True" />
+          <Statement FileIndex="92" Line="71" Column="9" EndLine="71" EndColumn="10" Covered="True" />
+        </Method>
+      </Type>
+    </Namespace>
+    <Namespace Name="hw10.Infrastructure" CoveredStatements="29" TotalStatements="29" CoveragePercent="100">
+      <Type Name="StringExtensions" CoveredStatements="29" TotalStatements="29" CoveragePercent="100">
+        <Method Name="AddNumberToList(System.Collections.Generic.ICollection&lt;System.String&gt;,System.String):System.Void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100">
+          <Statement FileIndex="86" Line="42" Column="9" EndLine="42" EndColumn="10" Covered="True" />
+          <Statement FileIndex="86" Line="43" Column="13" EndLine="43" EndColumn="91" Covered="True" />
+          <Statement FileIndex="86" Line="44" Column="13" EndLine="44" EndColumn="73" Covered="True" />
+          <Statement FileIndex="86" Line="45" Column="9" EndLine="45" EndColumn="10" Covered="True" />
+        </Method>
+        <Method Name="SplitMathExpressionByOperationsAndNumbers(System.String,System.Collections.Generic.List&lt;System.String&gt;):System.Void" CoveredStatements="25" TotalStatements="25" CoveragePercent="100">
+          <Statement FileIndex="86" Line="9" Column="9" EndLine="9" EndColumn="10" Covered="True" />
+          <Statement FileIndex="86" Line="10" Column="13" EndLine="15" EndColumn="43" Covered="True" />
+          <Statement FileIndex="86" Line="17" Column="13" EndLine="17" EndColumn="41" Covered="True" />
+          <Statement FileIndex="86" Line="18" Column="18" EndLine="18" EndColumn="27" Covered="True" />
+          <Statement FileIndex="86" Line="19" Column="13" EndLine="19" EndColumn="14" Covered="True" />
+          <Statement FileIndex="86" Line="20" Column="17" EndLine="20" EndColumn="56" Covered="True" />
+          <Statement FileIndex="86" Line="20" Column="57" EndLine="20" EndColumn="64" Covered="True" />
+          <Statement FileIndex="86" Line="21" Column="17" EndLine="21" EndColumn="85" Covered="True" />
+          <Statement FileIndex="86" Line="22" Column="17" EndLine="22" EndColumn="18" Covered="True" />
+          <Statement FileIndex="86" Line="23" Column="21" EndLine="23" EndColumn="50" Covered="True" />
+          <Statement FileIndex="86" Line="23" Column="51" EndLine="23" EndColumn="74" Covered="True" />
+          <Statement FileIndex="86" Line="24" Column="21" EndLine="24" EndColumn="30" Covered="True" />
+          <Statement FileIndex="86" Line="27" Column="17" EndLine="27" EndColumn="46" Covered="True" />
+          <Statement FileIndex="86" Line="28" Column="17" EndLine="28" EndColumn="18" Covered="True" />
+          <Statement FileIndex="86" Line="29" Column="21" EndLine="29" EndColumn="88" Covered="True" />
+          <Statement FileIndex="86" Line="30" Column="17" EndLine="30" EndColumn="18" Covered="True" />
+          <Statement FileIndex="86" Line="32" Column="17" EndLine="32" EndColumn="62" Covered="True" />
+          <Statement FileIndex="86" Line="33" Column="17" EndLine="33" EndColumn="41" Covered="True" />
+          <Statement FileIndex="86" Line="34" Column="13" EndLine="34" EndColumn="14" Covered="True" />
+          <Statement FileIndex="86" Line="18" Column="58" EndLine="18" EndColumn="61" Covered="True" />
+          <Statement FileIndex="86" Line="18" Column="29" EndLine="18" EndColumn="56" Covered="True" />
+          <Statement FileIndex="86" Line="36" Column="13" EndLine="36" EndColumn="42" Covered="True" />
+          <Statement FileIndex="86" Line="36" Column="43" EndLine="36" EndColumn="50" Covered="True" />
+          <Statement FileIndex="86" Line="38" Column="13" EndLine="38" EndColumn="79" Covered="True" />
+          <Statement FileIndex="86" Line="39" Column="9" EndLine="39" EndColumn="10" Covered="True" />
+        </Method>
+      </Type>
+    </Namespace>
+    <Namespace Name="hw10.Models" CoveredStatements="5" TotalStatements="5" CoveragePercent="100">
+      <Type Name="CalculatorModel" CoveredStatements="5" TotalStatements="5" CoveragePercent="100">
+        <Method Name=".ctor(System.String):System.Void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100">
+          <Statement FileIndex="94" Line="7" Column="9" EndLine="7" EndColumn="46" Covered="True" />
+          <Statement FileIndex="94" Line="8" Column="9" EndLine="8" EndColumn="10" Covered="True" />
+          <Statement FileIndex="94" Line="9" Column="13" EndLine="9" EndColumn="29" Covered="True" />
+          <Statement FileIndex="94" Line="10" Column="9" EndLine="10" EndColumn="10" Covered="True" />
+        </Method>
+        <Method Name="get_Answer():System.String" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Statement FileIndex="94" Line="5" Column="32" EndLine="5" EndColumn="36" Covered="True" />
+        </Method>
+      </Type>
+    </Namespace>
+    <Namespace Name="hw10.Services.Calculator" CoveredStatements="8" TotalStatements="8" CoveragePercent="100">
+      <Type Name="OperationExtensions" CoveredStatements="8" TotalStatements="8" CoveragePercent="100">
+        <Method Name=".cctor():System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Statement FileIndex="87" Line="50" Column="9" EndLine="58" EndColumn="11" Covered="True" />
+        </Method>
+        <Method Name="ToBinaryExpression(hw10.Services.Calculator.Operation,System.Collections.Generic.Stack&lt;System.Linq.Expressions.Expression&gt;):System.Linq.Expressions.BinaryExpression" CoveredStatements="7" TotalStatements="7" CoveragePercent="100">
+          <Statement FileIndex="87" Line="42" Column="9" EndLine="42" EndColumn="10" Covered="True" />
+          <Statement FileIndex="87" Line="43" Column="13" EndLine="43" EndColumn="34" Covered="True" />
+          <Statement FileIndex="87" Line="43" Column="35" EndLine="43" EndColumn="65" Covered="True" />
+          <Statement FileIndex="87" Line="44" Column="13" EndLine="44" EndColumn="38" Covered="True" />
+          <Statement FileIndex="87" Line="45" Column="13" EndLine="45" EndColumn="37" Covered="True" />
+          <Statement FileIndex="87" Line="46" Column="13" EndLine="46" EndColumn="62" Covered="True" />
+          <Statement FileIndex="87" Line="47" Column="9" EndLine="47" EndColumn="10" Covered="True" />
+        </Method>
+      </Type>
+    </Namespace>
+    <Namespace Name="hw10.Services.Database" CoveredStatements="5" TotalStatements="5" CoveragePercent="100">
+      <Type Name="ApplicationDbContext" CoveredStatements="5" TotalStatements="5" CoveragePercent="100">
+        <Method Name=".ctor(Microsoft.EntityFrameworkCore.DbContextOptions&lt;hw10.Services.Database.ApplicationDbContext&gt;):System.Void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+          <Statement FileIndex="97" Line="10" Column="87" EndLine="10" EndColumn="100" Covered="True" />
+          <Statement FileIndex="97" Line="11" Column="9" EndLine="11" EndColumn="10" Covered="True" />
+          <Statement FileIndex="97" Line="11" Column="11" EndLine="11" EndColumn="12" Covered="True" />
+        </Method>
+        <Method Name="get_Calculations():Microsoft.EntityFrameworkCore.DbSet&lt;hw10.Services.Database.Models.Calculation&gt;" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Statement FileIndex="97" Line="8" Column="50" EndLine="8" EndColumn="54" Covered="True" />
+        </Method>
+        <Method Name="set_Calculations(Microsoft.EntityFrameworkCore.DbSet&lt;hw10.Services.Database.Models.Calculation&gt;):System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Statement FileIndex="97" Line="8" Column="55" EndLine="8" EndColumn="59" Covered="True" />
+        </Method>
+      </Type>
+    </Namespace>
+    <Namespace Name="hw10.Services.Logging" CoveredStatements="11" TotalStatements="11" CoveragePercent="100">
+      <Type Name="ExceptionHandler" CoveredStatements="11" TotalStatements="11" CoveragePercent="100">
+        <Method Name=".ctor(Microsoft.Extensions.Logging.ILogger&lt;hw10.Controllers.CalculatorController&gt;):System.Void" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+          <Statement FileIndex="99" Line="12" Column="9" EndLine="12" EndColumn="70" Covered="True" />
+          <Statement FileIndex="99" Line="13" Column="16" EndLine="13" EndColumn="32" Covered="True" />
+        </Method>
+        <Method Name="get_LogLevel():Microsoft.Extensions.Logging.LogLevel" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Statement FileIndex="99" Line="10" Column="37" EndLine="10" EndColumn="41" Covered="True" />
+        </Method>
+        <Method Name="Handle(System.ArgumentException):System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Statement FileIndex="99" Line="22" Column="16" EndLine="22" EndColumn="94" Covered="True" />
+        </Method>
+        <Method Name="Handle(System.Exception,Microsoft.Extensions.Logging.LogLevel):System.Void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100">
+          <Statement FileIndex="99" Line="16" Column="9" EndLine="16" EndColumn="10" Covered="True" />
+          <Statement FileIndex="99" Line="17" Column="13" EndLine="17" EndColumn="33" Covered="True" />
+          <Statement FileIndex="99" Line="18" Column="13" EndLine="18" EndColumn="33" Covered="True" />
+          <Statement FileIndex="99" Line="19" Column="9" EndLine="19" EndColumn="10" Covered="True" />
+        </Method>
+        <Method Name="Handle(System.InvalidOperationException):System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Statement FileIndex="99" Line="28" Column="16" EndLine="28" EndColumn="98" Covered="True" />
+        </Method>
+        <Method Name="Handle(System.NullReferenceException):System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Statement FileIndex="99" Line="25" Column="16" EndLine="25" EndColumn="82" Covered="True" />
+        </Method>
+        <Method Name="set_LogLevel(Microsoft.Extensions.Logging.LogLevel):System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Statement FileIndex="99" Line="10" Column="42" EndLine="10" EndColumn="46" Covered="True" />
+        </Method>
+      </Type>
+    </Namespace>
+  </Assembly>
+  <Assembly Name="Tests10" CoveredStatements="36" TotalStatements="36" CoveragePercent="100">
+    <Namespace Name="Tests10" CoveredStatements="36" TotalStatements="36" CoveragePercent="100">
+      <Type Name="HostBuilder" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+        <Type Name="&lt;&gt;c" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+          <Method Name="&lt;CreateHostBuilder&gt;b__0_0(Microsoft.AspNetCore.Hosting.IWebHostBuilder):System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+            <Statement FileIndex="108" Line="24" Column="48" EndLine="26" EndColumn="37" Covered="True" />
+          </Method>
+          <Method Name="&lt;CreateHostBuilder&gt;b__0_1(Microsoft.Extensions.DependencyInjection.IServiceCollection):System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+            <Statement FileIndex="108" Line="27" Column="41" EndLine="27" EndColumn="79" Covered="True" />
+          </Method>
+        </Type>
+        <Method Name="CreateHostBuilder():Microsoft.Extensions.Hosting.IHostBuilder" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Statement FileIndex="108" Line="22" Column="16" EndLine="27" EndColumn="80" Covered="True" />
+        </Method>
+      </Type>
+      <Type Name="IntegrationTests" CoveredStatements="33" TotalStatements="33" CoveragePercent="100">
+        <Type Name="&lt;CalculatorController_CashedTest&gt;d__8" CoveredStatements="10" TotalStatements="10" CoveragePercent="100">
+          <Method Name="MoveNext():System.Void" CoveredStatements="10" TotalStatements="10" CoveragePercent="100">
+            <Statement FileIndex="108" Line="81" Column="9" EndLine="81" EndColumn="10" Covered="True" />
+            <Statement FileIndex="108" Line="82" Column="13" EndLine="82" EndColumn="36" Covered="True" />
+            <Statement FileIndex="108" Line="83" Column="13" EndLine="83" EndColumn="102" Covered="True" />
+            <Statement FileIndex="108" Line="85" Column="13" EndLine="85" EndColumn="50" Covered="True" />
+            <Statement FileIndex="108" Line="86" Column="13" EndLine="86" EndColumn="71" Covered="True" />
+            <Statement FileIndex="108" Line="87" Column="13" EndLine="87" EndColumn="135" Covered="True" />
+            <Statement FileIndex="108" Line="89" Column="13" EndLine="89" EndColumn="59" Covered="True" />
+            <Statement FileIndex="108" Line="90" Column="13" EndLine="90" EndColumn="58" Covered="True" />
+            <Statement FileIndex="108" Line="91" Column="13" EndLine="91" EndColumn="48" Covered="True" />
+            <Statement FileIndex="108" Line="92" Column="9" EndLine="92" EndColumn="10" Covered="True" />
+          </Method>
+        </Type>
+        <Type Name="&lt;CalculatorController_ReturnCorrectResult&gt;d__4" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Method Name="MoveNext():System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+            <Statement FileIndex="108" Line="50" Column="16" EndLine="50" EndColumn="57" Covered="True" />
+          </Method>
+        </Type>
+        <Type Name="&lt;CalculatorController_ReturnError&gt;d__5" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Method Name="MoveNext():System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+            <Statement FileIndex="108" Line="60" Column="16" EndLine="60" EndColumn="57" Covered="True" />
+          </Method>
+        </Type>
+        <Type Name="&lt;MakeTestAsync&gt;d__6" CoveredStatements="8" TotalStatements="8" CoveragePercent="100">
+          <Method Name="MoveNext():System.Void" CoveredStatements="8" TotalStatements="8" CoveragePercent="100">
+            <Statement FileIndex="108" Line="63" Column="9" EndLine="63" EndColumn="10" Covered="True" />
+            <Statement FileIndex="108" Line="64" Column="13" EndLine="64" EndColumn="89" Covered="True" />
+            <Statement FileIndex="108" Line="65" Column="13" EndLine="68" EndColumn="15" Covered="True" />
+            <Statement FileIndex="108" Line="70" Column="13" EndLine="70" EndColumn="65" Covered="True" />
+            <Statement FileIndex="108" Line="71" Column="13" EndLine="71" EndColumn="58" Covered="True" />
+            <Statement FileIndex="108" Line="72" Column="13" EndLine="72" EndColumn="69" Covered="True" />
+            <Statement FileIndex="108" Line="73" Column="13" EndLine="73" EndColumn="65" Covered="True" />
+            <Statement FileIndex="108" Line="74" Column="9" EndLine="74" EndColumn="10" Covered="True" />
+          </Method>
+        </Type>
+        <Type Name="&lt;MeasureTime&gt;d__9" CoveredStatements="7" TotalStatements="7" CoveragePercent="100">
+          <Method Name="MoveNext():System.Void" CoveredStatements="7" TotalStatements="7" CoveragePercent="100">
+            <Statement FileIndex="108" Line="95" Column="9" EndLine="95" EndColumn="10" Covered="True" />
+            <Statement FileIndex="108" Line="96" Column="13" EndLine="96" EndColumn="41" Covered="True" />
+            <Statement FileIndex="108" Line="97" Column="13" EndLine="97" EndColumn="27" Covered="True" />
+            <Statement FileIndex="108" Line="98" Column="13" EndLine="98" EndColumn="78" Covered="True" />
+            <Statement FileIndex="108" Line="99" Column="13" EndLine="99" EndColumn="26" Covered="True" />
+            <Statement FileIndex="108" Line="100" Column="13" EndLine="100" EndColumn="46" Covered="True" />
+            <Statement FileIndex="108" Line="101" Column="9" EndLine="101" EndColumn="10" Covered="True" />
+          </Method>
+        </Type>
+        <Method Name=".cctor():System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Statement FileIndex="108" Line="39" Column="9" EndLine="39" EndColumn="94" Covered="True" />
+        </Method>
+        <Method Name=".ctor(Tests10.HostBuilder):System.Void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100">
+          <Statement FileIndex="108" Line="34" Column="9" EndLine="34" EndColumn="53" Covered="True" />
+          <Statement FileIndex="108" Line="35" Column="9" EndLine="35" EndColumn="10" Covered="True" />
+          <Statement FileIndex="108" Line="36" Column="13" EndLine="36" EndColumn="46" Covered="True" />
+          <Statement FileIndex="108" Line="37" Column="9" EndLine="37" EndColumn="10" Covered="True" />
+        </Method>
+        <Method Name="GenerateExcepted(System.String):System.String" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Statement FileIndex="108" Line="77" Column="16" EndLine="77" EndColumn="68" Covered="True" />
+        </Method>
+      </Type>
+    </Namespace>
+  </Assembly>
+</Root>
