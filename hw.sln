@@ -1,5 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hw1", "hw1\hw1\hw1.csproj", "{4CC1B02A-7242-4F8F-85A1-B8309C9A2F5F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "hw1\Tests\Tests.csproj", "{963FFCA7-48FA-4BBA-A875-2B360926C7B2}"
@@ -24,13 +27,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests5", "Tests5\Tests5.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hw6", "hw6\hw6.csproj", "{A2E4F61F-D7B5-4151-8379-66F0D36F1E6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests6", "Tests6\Tests6.csproj", "{CD304C9F-3FF5-4E13-98F8-51987B723BD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests6", "Tests6\Tests6.csproj", "{CD304C9F-3FF5-4E13-98F8-51987B723BD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hw7", "hw7\hw7.csproj", "{88A2BB7C-338F-42BF-AD5C-E5315BFEBB99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hw7", "hw7\hw7.csproj", "{88A2BB7C-338F-42BF-AD5C-E5315BFEBB99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests7", "Tests7\Tests7.csproj", "{3CFCAF6F-7F12-451B-B151-F885A839F9AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests7", "Tests7\Tests7.csproj", "{3CFCAF6F-7F12-451B-B151-F885A839F9AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests7Integration", "Tests7Integration\Tests7Integration.csproj", "{9A65CFF9-52FA-4890-B93D-01F1395E0CC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests7Integration", "Tests7Integration\Tests7Integration.csproj", "{9A65CFF9-52FA-4890-B93D-01F1395E0CC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hw11", "hw11\hw11.csproj", "{C982FFEA-C338-464D-8C1E-90D73ABEB057}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -102,5 +107,15 @@ Global
 		{9A65CFF9-52FA-4890-B93D-01F1395E0CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A65CFF9-52FA-4890-B93D-01F1395E0CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A65CFF9-52FA-4890-B93D-01F1395E0CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C982FFEA-C338-464D-8C1E-90D73ABEB057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C982FFEA-C338-464D-8C1E-90D73ABEB057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C982FFEA-C338-464D-8C1E-90D73ABEB057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C982FFEA-C338-464D-8C1E-90D73ABEB057}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEEA27FE-C9E8-45E0-AAAE-7624FD2E28E2}
 	EndGlobalSection
 EndGlobal
