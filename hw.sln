@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hw10", "hw10\hw10.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests10", "Tests10\Tests10.csproj", "{1505F058-AD06-45ED-B2EC-8153D236B7D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hw12.benchmark", "hw12.benchmark\hw12.benchmark.csproj", "{AA6397EF-55FF-482F-986A-C0DD5FA3F66D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{1505F058-AD06-45ED-B2EC-8153D236B7D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1505F058-AD06-45ED-B2EC-8153D236B7D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1505F058-AD06-45ED-B2EC-8153D236B7D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA6397EF-55FF-482F-986A-C0DD5FA3F66D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA6397EF-55FF-482F-986A-C0DD5FA3F66D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA6397EF-55FF-482F-986A-C0DD5FA3F66D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA6397EF-55FF-482F-986A-C0DD5FA3F66D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
