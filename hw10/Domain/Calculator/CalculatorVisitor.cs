@@ -12,8 +12,6 @@ namespace hw10.Domain.Calculator
         
         public virtual async Task<Expression> VisitAsync(BinaryExpression exp)
         {
-            await Task.Delay(1000);
-
             var leftTask  = VisitAsync(exp.Left);
             var rightTask = VisitAsync(exp.Right);
 
