@@ -32,6 +32,7 @@ namespace hw10.Domain.Calculator
             return Expression.Constant(res, typeof(double));
         }
 
-        public virtual async Task<Expression> VisitAsync(ConstantExpression node) => node;
+        public virtual async Task<Expression> VisitAsync(ConstantExpression node)
+            => await Task.FromResult(node);
     }
 }
