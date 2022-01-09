@@ -1,0 +1,76 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Играть";
+}
+
+<div class="d-flex justify-content-center">
+    <div class="col-12 col-md-8 col-lg-6 col-xl-4">
+        <div class="text-center">
+            <h3>
+                Создание персонажа
+            </h3>
+        </div>
+        <div class="validation text-danger" asp-validation-summary="ModelOnly"></div>
+        <form method="post">
+            <label class="m-0" asp-for="CharacterModel.Name"></label>
+            <div class="mb-1">
+                <input class="form-control" asp-for="CharacterModel.Name">
+                <span class="text-danger" asp-validation-for="CharacterModel.Name"></span>
+            </div>
+
+            <label class="m-0" asp-for="CharacterModel.Damage"></label>
+            <div class="mb-1">
+                <input class="form-control" asp-for="CharacterModel.Damage">
+                <span class="text-danger" asp-validation-for="CharacterModel.Damage"></span>
+            </div>
+
+            <label class="m-0" asp-for="CharacterModel.Weapon"></label>
+            <div class="mb-1">
+                <input class="form-control" asp-for="CharacterModel.Weapon">
+                <span class="text-danger" asp-validation-for="CharacterModel.Weapon"></span>
+            </div>
+
+            <label class="m-0" asp-for="CharacterModel.ArmorClass"></label>
+            <div class="mb-1">
+                <input class="form-control" asp-for="CharacterModel.ArmorClass">
+                <span class="text-danger" asp-validation-for="CharacterModel.ArmorClass"></span>
+            </div>
+
+            <label class="m-0" asp-for="CharacterModel.AttackModifier"></label>
+            <div class="mb-1">
+                <input class="form-control" asp-for="CharacterModel.AttackModifier">
+                <span class="text-danger" asp-validation-for="CharacterModel.AttackModifier"></span>
+            </div>
+
+            <label class="m-0" asp-for="CharacterModel.DamageModifier"></label>
+            <div class="mb-1">
+                <input class="form-control" asp-for="CharacterModel.DamageModifier">
+                <span class="text-danger" asp-validation-for="CharacterModel.DamageModifier"></span>
+            </div>
+
+            <label class="m-0" asp-for="CharacterModel.HitPoints"></label>
+            <div class="mb-1">
+                <input class="form-control" asp-for="CharacterModel.HitPoints">
+                <span class="text-danger" asp-validation-for="CharacterModel.HitPoints"></span>
+            </div>
+
+            <label class="m-0" asp-for="CharacterModel.AttackPerRound"></label>
+            <div class="mb-1">
+                <input class="form-control" asp-for="CharacterModel.AttackPerRound">
+                <span class="text-danger" asp-validation-for="CharacterModel.AttackPerRound"></span>
+            </div>
+
+            <div class="text-center">
+                <input class="btn btn-primary" type="submit" value="Отправить">
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts
+{
+    <partial name="Shared/_ValidationScriptsPartial"></partial>
+}
+

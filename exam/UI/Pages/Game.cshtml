@@ -1,0 +1,67 @@
+﻿@page
+@model UI.Pages.Game
+@{
+    var monster = Model.CharacterMonster.Monster;
+    var character = Model.CharacterMonster.Character;
+}
+
+<div class="d-flex justify-content-center">
+    <div class="d-flex flex-md-row flex-column">
+        <div class="mr-0 mr-md-5 mb-3 mb-md-0">
+            <h5>Ваш персонаж</h5>
+            <div>
+                <label asp-for="CharacterMonster.Character.Name"></label>: @character.Name
+            </div>
+            <div>
+                <label asp-for="CharacterMonster.Character.Damage"></label>: @character.Damage
+            </div>
+            <div>
+                <label asp-for="CharacterMonster.Character.Weapon"></label>: @character.Weapon
+            </div>
+            <div>
+                <label asp-for="CharacterMonster.Character.ArmorClass"></label>: @character.ArmorClass
+            </div>
+            <div>
+                <label asp-for="CharacterMonster.Character.AttackModifier"></label>: @character.AttackModifier
+            </div>
+            <div>
+                <label asp-for="CharacterMonster.Character.DamageModifier"></label>: @character.DamageModifier
+            </div>
+            <div>
+                <label asp-for="CharacterMonster.Character.HitPoints"></label>: @character.HitPoints
+            </div>
+            <div>
+                <label asp-for="CharacterMonster.Character.AttackPerRound"></label>: @character.AttackPerRound
+            </div>
+        </div>
+
+        <div>
+            <h5>Ваш противник</h5>
+
+            <div>
+                <label asp-for="CharacterMonster.Monster.Name"></label>: @monster.Name
+            </div>
+            <div>
+                <label asp-for="CharacterMonster.Monster.Damage"></label>: @monster.Damage
+            </div>
+            <div>
+                <label asp-for="CharacterMonster.Monster.Weapon"></label>: @monster.Weapon
+            </div>
+            <div>
+                <label asp-for="CharacterMonster.Monster.ArmorClass"></label>: @monster.ArmorClass
+            </div>
+            <div>
+                <label asp-for="CharacterMonster.Monster.AttackModifier"></label>: @monster.AttackModifier
+            </div>
+            <div>
+                <label asp-for="CharacterMonster.Monster.DamageModifier"></label>: @monster.DamageModifier
+            </div>
+            <div>
+                <label asp-for="CharacterMonster.Monster.HitPoints"></label>: @monster.HitPoints
+            </div>
+            <div>
+                <label asp-for="CharacterMonster.Monster.AttackPerRound"></label>: @monster.AttackPerRound
+            </div>
+        </div>
+    </div>
+</div>

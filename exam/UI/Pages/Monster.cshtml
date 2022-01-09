@@ -1,0 +1,71 @@
+﻿@page
+@model UI.Pages.Monster
+
+<div class="d-flex justify-content-center">
+    <div class="col-12 col-md-8 col-lg-6 col-xl-4">
+        <div class="text-center">
+            <h3>
+                Добавление монстра
+            </h3>
+        </div>
+        <div class="validation text-danger" asp-validation-summary="ModelOnly"></div>
+        <form method="post">
+            <label class="m-0" asp-for="MonsterModel.Name"></label>
+            <div class="mb-1">
+                <input class="form-control" asp-for="MonsterModel.Name">
+                <span class="text-danger" asp-validation-for="MonsterModel.Name"></span>
+            </div>
+            
+            <label class="m-0" asp-for="MonsterModel.Damage"></label>
+            <div class="mb-1">
+                <input class="form-control" asp-for="MonsterModel.Damage">
+                <span class="text-danger" asp-validation-for="MonsterModel.Damage"></span>
+            </div>
+            
+            <label class="m-0" asp-for="MonsterModel.Weapon"></label>
+            <div class="mb-1">
+                <input class="form-control" asp-for="MonsterModel.Weapon">
+                <span class="text-danger" asp-validation-for="MonsterModel.Weapon"></span>
+            </div>
+
+            <label class="m-0" asp-for="MonsterModel.ArmorClass"></label>
+            <div class="mb-1">
+                <input class="form-control" asp-for="MonsterModel.ArmorClass">
+                <span class="text-danger" asp-validation-for="MonsterModel.ArmorClass"></span>
+            </div>
+
+            <label class="m-0" asp-for="MonsterModel.AttackModifier"></label>
+            <div class="mb-1">
+                <input class="form-control" asp-for="MonsterModel.AttackModifier">
+                <span class="text-danger" asp-validation-for="MonsterModel.AttackModifier"></span>
+            </div>
+
+            <label class="m-0" asp-for="MonsterModel.DamageModifier"></label>
+            <div class="mb-1">
+                <input class="form-control" asp-for="MonsterModel.DamageModifier">
+                <span class="text-danger" asp-validation-for="MonsterModel.DamageModifier"></span>
+            </div>
+
+            <label class="m-0" asp-for="MonsterModel.HitPoints"></label>
+            <div class="mb-1">
+                <input class="form-control" asp-for="MonsterModel.HitPoints">
+                <span class="text-danger" asp-validation-for="MonsterModel.HitPoints"></span>
+            </div>
+
+            <label class="m-0" asp-for="MonsterModel.AttackPerRound"></label>
+            <div class="mb-1">
+                <input class="form-control" asp-for="MonsterModel.AttackPerRound">
+                <span class="text-danger" asp-validation-for="MonsterModel.AttackPerRound"></span>
+            </div>
+
+            <div class="text-center">
+                <input class="btn btn-primary" type="submit" value="Добавить">
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts
+{
+    <partial name="Shared/_ValidationScriptsPartial"></partial>
+}
