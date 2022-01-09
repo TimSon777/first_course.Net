@@ -1,8 +1,6 @@
 ﻿using System;
-using System.IO;
 using System.Net.Http;
 using System.Net.Http.Json;
-using System.Text.Json;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -23,20 +21,8 @@ namespace UI.Pages
 
         public async Task OnPost()
         {
-            if (ModelState.IsValid) return;
-            
-            var response = await _client.PostAsJsonAsync(_urlAddingMonster, MonsterModel);
-            
-            using var sr = new StreamReader(await response.Content.ReadAsStreamAsync());
-            var json = await sr.ReadToEndAsync();
-            var isSuccess = JsonSerializer.Deserialize<bool>(json);
-
-            IActionResult a = new JsonResult("werg");
-            
-            if (!isSuccess)
-            {
-                ModelState.AddModelError("", "Что-то пошло не так, повторите попытку или попробуйте позже");
-            }
+            if (!ModelState.IsValid) return;
+            await _client.PostAsJsonAsync(_urlAddingMonster, MonsterModel);
         }
     }
 }
