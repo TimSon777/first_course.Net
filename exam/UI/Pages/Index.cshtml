@@ -2,9 +2,9 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Играть";
-    var isFormBlocked = Model.CharacterModel is null
-                        || Model.ResultFight?.Character?.HitPoints <= 0;
-    var text = isFormBlocked
+    var isActive = Model.CharacterModel is null
+                   || Model.ResultFight is not null && Model.ResultFight.IsUserWin;
+    var text = isActive
         ? ""
         : "disabled=\"disabled\"";
 }
@@ -83,21 +83,36 @@
         <div class="col-6">
             @foreach (var motion in result.Motions)
             {
-                @(motion.IsUserMotion ? "Ваш ход": "Ход противника")
-                var hp = motion.IsUserMotion ? result.Monster.HitPoints : result.Character.HitPoints;
+                @(motion.IsUserMotion ? "Ваш ход" : "Ход противника")
                 @foreach (var attack in motion.Attacks)
                 {
-                    hp -= attack.Damage;
+                    if (motion.IsUserMotion)
+                    {
+                        result.Monster.HitPoints -= attack.Damage;
+                    }
+                    else
+                    {
+                        result.Character.HitPoints -= attack.Damage;
+                    }
+
+                    if (result.Character.HitPoints < 0) result.Character.HitPoints = 0;
+                    if (result.Monster.HitPoints < 0) result.Monster.HitPoints = 0;
+                    var hp = !motion.IsUserMotion ? result.Character.HitPoints : result.Monster.HitPoints;
+                    <p>Общий кубик: @attack.Dice20</p>
+                    if (@attack.Dice >= 1)
+                    {
+                        <p>Ваш кубик: @attack.Dice</p>
+                    }
                     if (attack.IsCriticalMiss)
                     {
                         <p>
                             Фатальный промах (((
                         </p>
                     }
-                    else if(attack.IsCriticalDamage)
+                    else if (attack.IsCriticalDamage)
                     {
                         <p>
-                            Критический дамаг ееее! @(attack.Damage / 2) x 2 (@hp)
+                            Критический дамаг ееее! 2 x @(attack.Damage / 2) (@hp)
                         </p>
                     }
                     else
@@ -108,6 +123,18 @@
                     }
                 }
             }
+            <div>
+                
+                    @if (result.IsUserWin)
+                    {
+                        <h3>Вы победили </h3>
+                    }
+                    else
+                    {
+                        <h3>Вы проиграли </h3>
+                    }
+                
+            </div>
         </div>
     }
 

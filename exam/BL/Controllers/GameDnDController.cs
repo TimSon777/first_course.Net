@@ -39,6 +39,7 @@ namespace BL.Controllers
                 }
             }
 
+            var isUserWin = character.HitPoints > 0;
             character.HitPoints = initialHpCharacter;
             monster.HitPoints = initialHpMonster;
 
@@ -46,7 +47,8 @@ namespace BL.Controllers
             {
                 Character = character,
                 Monster = monster,
-                Motions = motions
+                Motions = motions,
+                IsUserWin = isUserWin
             };
 
             return result;
@@ -55,11 +57,12 @@ namespace BL.Controllers
         public Motion MakeMotion(Characteristics striker, Characteristics defender, Dice dice)
         {
             var attacks = new List<Attack>();
-            var points = CommonDice.Roll();
+            
 
 
             for (var i = 0; i < striker.CountThrows && defender.HitPoints > 0; i++)
             {
+                var points = CommonDice.Roll();
                 var isAttackSuccess = points != 1
                                       && (points + striker.AttackModifier >= defender.ArmorClass
                                           || points == 20);
@@ -69,20 +72,24 @@ namespace BL.Controllers
                     {
                         Damage = 0,
                         IsCriticalDamage = false,
-                        IsCriticalMiss = points == 1
+                        IsCriticalMiss = points == 1,
+                        Dice20 = points,
                     });
                     
                     continue;
                 }
                 var cf = points == 20 ? 2 : 1;
 
-                var damage = cf * (dice.Roll() + striker.DamageModifier + striker.Weapon);
+                var dice1 = dice.Roll();
+                var damage = cf * (dice1 + striker.DamageModifier + striker.Weapon);
                 defender.HitPoints -= damage;
                 attacks.Add(new Attack
                 {
                     Damage = damage,
                     IsCriticalDamage = points == 20,
-                    IsCriticalMiss = false
+                    IsCriticalMiss = false,
+                    Dice20 = points,
+                    Dice = dice1
                 });
             }
 

@@ -10,7 +10,7 @@ namespace UI.Models.Common
         [Range(0, int.MaxValue)]
         [DisplayName("Очки здоровья")]
         [JsonPropertyName("hitPoints")]
-        public int HitPoints { get; init; }
+        public int HitPoints { get; set; }
                 
         [Required]
         [Range(0, int.MaxValue)]

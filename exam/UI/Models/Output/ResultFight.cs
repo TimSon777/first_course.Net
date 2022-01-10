@@ -14,5 +14,8 @@ namespace UI.Models.Output
         
         [JsonPropertyName("motions")]
         public IEnumerable<Motion> Motions { get; set; }
+        
+        [JsonPropertyName("isUserWin")]
+        public bool IsUserWin { get; set; }
     }
 }

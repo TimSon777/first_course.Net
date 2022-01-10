@@ -8,5 +8,6 @@ namespace BL.Games.DnD.Output
         public Character Character { get; set; }
         public Monster Monster { get; set; }
         public IEnumerable<Motion> Motions { get; set; }
+        public bool IsUserWin { get; set; }
     }
 }
