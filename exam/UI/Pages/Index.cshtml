@@ -2,10 +2,15 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Играть";
+    var isFormBlocked = Model.CharacterModel is null
+                        || Model.ResultFight?.Character?.HitPoints <= 0;
+    var text = isFormBlocked
+        ? ""
+        : "disabled=\"disabled\"";
 }
 
 <div class="d-flex justify-content-center">
-    <div class="col-12 col-md-8 col-lg-6 col-xl-4">
+    <div class="col-6">
         <div class="text-center">
             <h3>
                 Создание персонажа
@@ -55,6 +60,12 @@
                 <span class="text-danger" asp-validation-for="CharacterModel.HitPoints"></span>
             </div>
 
+            <label class="m-0" asp-for="CharacterModel.CountThrows"></label>
+            <div class="mb-1">
+                <input class="form-control" asp-for="CharacterModel.CountThrows">
+                <span class="text-danger" asp-validation-for="CharacterModel.CountThrows"></span>
+            </div>
+
             <label class="m-0" asp-for="CharacterModel.AttackPerRound"></label>
             <div class="mb-1">
                 <input class="form-control" asp-for="CharacterModel.AttackPerRound">
@@ -62,15 +73,116 @@
             </div>
 
             <div class="text-center">
-                <input class="btn btn-primary" type="submit" value="Отправить">
+                <input @text class="btn btn-primary" type="submit" value="В бой!">
             </div>
         </form>
     </div>
+    @if (Model.ResultFight is not null)
+    {
+        var result = Model.ResultFight;
+        <div class="col-6">
+            @foreach (var motion in result.Motions)
+            {
+                @(motion.IsUserMotion ? "Ваш ход": "Ход противника")
+                var hp = motion.IsUserMotion ? result.Monster.HitPoints : result.Character.HitPoints;
+                @foreach (var attack in motion.Attacks)
+                {
+                    hp -= attack.Damage;
+                    if (attack.IsCriticalMiss)
+                    {
+                        <p>
+                            Фатальный промах (((
+                        </p>
+                    }
+                    else if(attack.IsCriticalDamage)
+                    {
+                        <p>
+                            Критический дамаг ееее! @(attack.Damage / 2) x 2 (@hp)
+                        </p>
+                    }
+                    else
+                    {
+                        <p>
+                            Дамаг: @attack.Damage (@hp)
+                        </p>
+                    }
+                }
+            }
+        </div>
+    }
+
 </div>
 
+@{
+    var monster = Model.Monster;
+    var character = Model.CharacterModel;
+}
+
+@if (character is not null && monster is not null)
+{
+    <div class="d-flex justify-content-center">
+        <div class="d-flex flex-md-row flex-column">
+            <div class="mr-0 mr-md-5 mb-3 mb-md-0">
+                <h5>Ваш персонаж</h5>
+                <div>
+                    <label asp-for="CharacterModel.Name"></label>: @character.Name
+                </div>
+                <div>
+                    <label asp-for="CharacterModel.Damage"></label>: @character.Damage
+                </div>
+                <div>
+                    <label asp-for="CharacterModel.Weapon"></label>: @character.Weapon
+                </div>
+                <div>
+                    <label asp-for="CharacterModel.ArmorClass"></label>: @character.ArmorClass
+                </div>
+                <div>
+                    <label asp-for="CharacterModel.AttackModifier"></label>: @character.AttackModifier
+                </div>
+                <div>
+                    <label asp-for="CharacterModel.DamageModifier"></label>: @character.DamageModifier
+                </div>
+                <div>
+                    <label asp-for="CharacterModel.HitPoints"></label>: @character.HitPoints
+                </div>
+                <div>
+                    <label asp-for="CharacterModel.AttackPerRound"></label>: @character.AttackPerRound
+                </div>
+            </div>
+
+            <div>
+                <h5>Ваш противник</h5>
+
+                <div>
+                    <label asp-for="Monster.Name"></label>: @monster.Name
+                </div>
+                <div>
+                    <label asp-for="Monster.Damage"></label>: @monster.Damage
+                </div>
+                <div>
+                    <label asp-for="Monster.Weapon"></label>: @monster.Weapon
+                </div>
+                <div>
+                    <label asp-for="Monster.ArmorClass"></label>: @monster.ArmorClass
+                </div>
+                <div>
+                    <label asp-for="Monster.AttackModifier"></label>: @monster.AttackModifier
+                </div>
+                <div>
+                    <label asp-for="Monster.DamageModifier"></label>: @monster.DamageModifier
+                </div>
+                <div>
+                    <label asp-for="Monster.HitPoints"></label>: @monster.HitPoints
+                </div>
+                <div>
+                    <label asp-for="Monster.AttackPerRound"></label>: @monster.AttackPerRound
+                </div>
+            </div>
+        </div>
+    </div>
+}
 
 @section Scripts
 {
     <partial name="Shared/_ValidationScriptsPartial"></partial>
 }
-

@@ -29,7 +29,13 @@ namespace UI.Models.Common
         [DisplayName("Урон")]
         [JsonPropertyName("damage")]
         public int Damage { get; init; }
-                
+        
+        [Required]
+        [Range(0, int.MaxValue)]
+        [DisplayName("Количество бросков")]
+        [JsonPropertyName("countThrows")]
+        public int CountThrows { get; init; }   
+        
         [Required]
         [Range(0, int.MaxValue)]
         [DisplayName("Модификация урона")]

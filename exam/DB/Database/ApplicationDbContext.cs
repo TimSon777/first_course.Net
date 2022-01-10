@@ -24,6 +24,7 @@ namespace DB.Database
                 AttackModifier = 5,
                 AttackPerRound = 21,
                 Damage = 20,
+                CountThrows = 2,
                 DamageModifier = 8,
                 Weapon = 15,
                 ArmorClass = 11
@@ -37,6 +38,7 @@ namespace DB.Database
                 AttackModifier = 2,
                 AttackPerRound = 14,
                 Damage = 10,
+                CountThrows = 2,
                 DamageModifier = 3,
                 Weapon = 5,
                 ArmorClass = 18
@@ -50,6 +52,7 @@ namespace DB.Database
                 AttackModifier = 3,
                 AttackPerRound = 2,
                 Damage = 1,
+                CountThrows = 2,
                 DamageModifier = 3,
                 Weapon = 3,
                 ArmorClass = 12

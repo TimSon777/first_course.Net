@@ -33,6 +33,11 @@ namespace DB.Database.Models
         public int Damage { get; set; }
                 
         [Required]
+        [JsonPropertyName("countThrows")]
+        [Range(1, 100)]
+        public int CountThrows { get; set; }
+        
+        [Required]
         [JsonPropertyName("damageModifier")]
         [Range(1, 100)]
         public int DamageModifier { get; set; }
